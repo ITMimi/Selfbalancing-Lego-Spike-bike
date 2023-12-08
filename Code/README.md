@@ -1,1 +1,1 @@
-
+Die erste Version des selbstausbalancierenden Motorrads haben wir in der Spike App erstellt. Um die Möglichkeit zu haben eine Controller-Steuerung zu implementieren sind wir dann auf die Mindstorms App umgestiegen und mussten dort ein paar Parameter anpassen. Daher sind in beide Code-Versionen in den entsprechenden Ordnern zu finden. 
