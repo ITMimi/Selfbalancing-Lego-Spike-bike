@@ -40,4 +40,13 @@ _12. setze Integral auf 0_
 
 In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden initialisiert und auf 0 gesetzt. Prinzipiell sollte das nicht notwendig sein, jedoch sind wir in der Testphase auf das Problem gestoßen, dass die Variablen nicht zurückgesetzt wurden und so zu Fehern geführt haben. 
 
-
+_13. setzte Steerpower auf 2.6_
+<br />
+_14. setze Kp auf 1_
+<br />
+_15. setze Ki auf 0.02_
+<br />
+_16. setze Kd auf 18_
+<br />
+_16. setze Kh auf 0.26_
+<br />
