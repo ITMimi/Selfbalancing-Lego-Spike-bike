@@ -103,6 +103,10 @@ _16. setze Kd auf 18_
 _16. setze Kh auf 0.26_
 <br />
 
+## Controller-Steuerung
+
+Platzhalter
+
 ## Fazit  
 
 https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/547acb4e-3f02-45bf-bd1d-e70390bd240c
