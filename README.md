@@ -34,4 +34,8 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 
 ![alt Text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Images/Bauanleitung%20Roboter%20Bild.jpg)
 
+Hier CAD einfügen. 
+
+[Aufbauanleitung](https://www.youtube.com/watch?v=IiCZoNBiXc0) von [Creator Academy Australia](https://www.youtube.com/watch?v=MCVW2Uqanlw).
+
 
