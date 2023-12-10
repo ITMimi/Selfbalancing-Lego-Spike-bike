@@ -40,15 +40,15 @@ Hier CAD einfügen.
 
 [Aufbauanleitung](https://www.youtube.com/watch?v=IiCZoNBiXc0) von [Creator Academy Australia](https://www.youtube.com/watch?v=MCVW2Uqanlw).
 
-## Code
+# Code
 
-### Downloads:
+## Downloads:
 
 [Code](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Code/Spike%20App/Selfbalancing_Bike_SpikeApp_final.llsp3) für Spike App
 
 [Code](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Code/Mindstorms%20App/Selfbalancing_Bike_MindstormsApp_final.lms) für Mindstorms App
 
-### Code Erklärung:
+## Code Erklärung:
 
 Im Folgenden gehen wir durch jede Zeile des Codes und erklären diese. 
 <br />
@@ -103,11 +103,11 @@ _16. setze Kd auf 18_
 _16. setze Kh auf 0.26_
 <br />
 
-## Controller-Steuerung
+# Controller-Steuerung
 
 Platzhalter
 
-## Fazit  
+# Fazit  
 
 https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/547acb4e-3f02-45bf-bd1d-e70390bd240c
 
