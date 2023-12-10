@@ -105,11 +105,30 @@ _17. setze Kh auf 0.26_
 
 Erklärung
 
+__*Antrieb*__
+<br />
+
 _18. Motor stelle Geschwindigkeit auf -85% ein_
 <br />
 _19. Motor weise Bewegungsmotoren Anschlüsse E+F zu_
 <br />
 _20. Motor starte Bewegung geradeaus:0_
+<br />
+
+__*Schleife*__
+<br />
+
+_21. wiederhole bis Betrag von Roll-Winkel > 70_
+<br />
+_22. setze Error auf Balance Target - Roll-Winkel_
+<br />
+_23. setze Integral auf Integral + Error * 0.25_
+<br />
+_24. setze Derrivate auf Error - previous error_
+<br />
+_25. setze previous error auf Error_
+<br />
+_26. setze Derrivate auf Error - previous Error_
 <br />
 
 
