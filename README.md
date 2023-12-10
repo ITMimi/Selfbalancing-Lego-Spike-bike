@@ -11,4 +11,4 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 |---------|--------|
 | Räder   | 2      |    
 
-![alt text](Images/Bauanleitung Roboter Bild.jpg)
+![alt text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Images/Bauanleitung%20Roboter%20Bild.jpg)
