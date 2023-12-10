@@ -100,8 +100,19 @@ _15. setze Ki auf 0.02_
 <br />
 _16. setze Kd auf 18_
 <br />
-_16. setze Kh auf 0.26_
+_17. setze Kh auf 0.26_
 <br />
+
+Erklärung
+
+_18. Motor stelle Geschwindigkeit auf -85% ein_
+<br />
+_19. Motor weise Bewegungsmotoren Anschlüsse E+F zu_
+<br />
+_20. Motor starte Bewegung geradeaus:0_
+<br />
+
+
 
 # Controller-Steuerung
 
