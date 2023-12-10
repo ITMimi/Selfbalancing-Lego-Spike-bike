@@ -12,9 +12,9 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 | Großer Motor     | 1      |
 | Kleiner Motor    | 2      |
 | Großes Rad      | 2      |
-| 4x2 Baustein | 8     |
-|16x2 Baustein Flach | 2  |
-| 8x2 Baustein Flach   | 2  |
-| 2x2 Baustein abgerundet| 2|
+| 4x2 Baustein (bunt) | 8     |
+|16x2 Baustein Flach (Lila) | 2  |
+| 8x2 Baustein Flach (Schwarz)   | 2  |
+| 2x2 Baustein abgerundet (Schwarz) | 2|
 
 ![alt Text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Images/Bauanleitung%20Roboter%20Bild.jpg)
