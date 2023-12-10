@@ -2,8 +2,6 @@
 
 Bei dem im folgenden vorgestellte Projekt handelt es sich um einen Prototyp eines selbstausbalancierenden Motorrads, das ausschließlich aus LEGO®-Bausteinen konstruiert und mit der LEGO®-Spike bzw LEGO®-Mindstorms App programmiert wurde. Die Idee war es, das eingebaute Gyroskop zu nutzen um zu registrieren, wenn das Motorrad in eine Richtung kippt (Änderungen im Roll-Winkel) und das Motorrad durch entsprechende Lenkbewegungen wieder aufzustellen. Außerdem wurde versucht eine Controller-Steuerung zu implementieren. 
 
-![Lego Spike Bike](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/38a3e8bf-6ff8-4f24-8b36-1140f6adbaec)
-
 Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von dem YouTube Kanal [Creator Academy Australia](https://www.youtube.com/watch?v=MCVW2Uqanlw).
 
 ## Bauanleitung
@@ -37,6 +35,8 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 ![alt Text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Images/Bauanleitung%20Roboter%20Bild.jpg)
 
 Hier CAD einfügen. 
+
+![Lego Spike Bike](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/38a3e8bf-6ff8-4f24-8b36-1140f6adbaec)
 
 [Aufbauanleitung](https://www.youtube.com/watch?v=IiCZoNBiXc0) von [Creator Academy Australia](https://www.youtube.com/watch?v=MCVW2Uqanlw).
 
