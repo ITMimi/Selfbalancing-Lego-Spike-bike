@@ -128,9 +128,22 @@ _24. setze Derrivate auf Error - previous error_
 <br />
 _25. setze previous error auf Error_
 <br />
-_26. setze Derrivate auf Error - previous Error_
+_26. setze Heading auf Heading Target - Gier-winkel_
+<br />
+_27. setze Result auf (Error * Kp) + (Integral * Ki) + (Derrivate * Kd)+ (Heading * Kh)_
+<br />
+_28. Motor B starte Motor mit Result * Steerpower % Leistung_
 <br />
 
+__*Roboter Umgekippt*__
+<br />
+
+_29. Motorpaar halte an_
+<br />
+_30. Motor B stoppe Motor_
+<br />
+_31. Motor B gehe auf kürzestem Wege auf Position 0_
+<br />
 
 
 # Controller-Steuerung
