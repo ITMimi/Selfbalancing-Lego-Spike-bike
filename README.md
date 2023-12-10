@@ -152,6 +152,9 @@ _31. Motor B gehe auf kürzestem Wege auf Position 0_
 
 [Code](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Code/Mindstorms%20App/Lego_Spike_Bike_ControllerSteuerung_MindstormsApp.lms) für Mindstorms App
 
+## Code Erklärung
+
+
 # Fazit  
 
 https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/547acb4e-3f02-45bf-bd1d-e70390bd240c
