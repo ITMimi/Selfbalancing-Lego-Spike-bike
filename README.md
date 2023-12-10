@@ -101,4 +101,5 @@ _16. setze Kd auf 18_
 _16. setze Kh auf 0.26_
 <br />
 
+## Fazit  
 
