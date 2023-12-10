@@ -9,5 +9,6 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 
 | Bauteil | Anzahl |
 |---------|--------|
+| Räder   | 2      |
 
 
