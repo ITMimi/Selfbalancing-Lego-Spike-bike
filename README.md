@@ -46,12 +46,13 @@ Hier CAD einfügen.
 
 [Code](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Code/Mindstorms%20App/Selfbalancing_Bike_MindstormsApp_final.lms) für Mindstorms App
 
-### Code Erklärung
+### Code Erklärung:
 
 Im Folgenden gehen wir durch jede Zeile des Codes und erklären diese. 
 <br />
 
-### Start des Prgramms 
+*Start des Prgramms*
+<br />
 _1. Wenn Programm startet_
 <br />
 _2. Motor B gehe auf kürzestem Wege auf Position 0_
@@ -67,7 +68,7 @@ _4. setze Gierwinkel auf 0_
 
 Der Gierwinkel wird in der Startposition auf 0 gesetzt. Dadurch werden Abweichungen im Roll-Winkel, welche durch die Startposition verursacht werden ausgeglichen.
 
-### Initialisierung von Variablen und Parametern 
+*Initialisierung von Variablen und Parametern* 
 
 _5. setzte Result auf 0_
 <br />
@@ -88,7 +89,6 @@ _12. setze Integral auf 0_
 
 In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden initialisiert und auf 0 gesetzt. Prinzipiell sollte das nicht notwendig sein, jedoch sind wir in der Testphase auf das Problem gestoßen, dass die Variablen nicht beim erneuten ausführen des Programms zurückgesetzt wurde, was zu Fehlern geführt hat. 
 
-## Evtl. erläutern was es bei den Werten und Parametern auf sich hat.
 _13. setzte Steerpower auf 2.6_
 <br />
 _14. setze Kp auf 1_
