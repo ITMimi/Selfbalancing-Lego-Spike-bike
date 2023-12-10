@@ -103,3 +103,9 @@ _16. setze Kh auf 0.26_
 
 ## Fazit  
 
+https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/547acb4e-3f02-45bf-bd1d-e70390bd240c
+
+https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/27c758a2-e49b-49fe-b1d6-4038bd6fde2a
+
+
+
