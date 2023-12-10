@@ -16,8 +16,11 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 |16x2 Baustein Flach (Lila) | 2  |
 | 8x2 Baustein Flach (Schwarz)   | 2  |
 | 2x2 Baustein abgerundet (Schwarz) | 2|
-| 3x Verbindungsschiene (Gelb) | 4 |
-| 7x Verbindungsschiene (Blau) | 3 |
-| 9x Verbindungsschiene (Schwarz) | 3 |
+| 3x1 Verbindungsschiene (Gelb) | 4 |
+| 7x1 Verbindungsschiene (Blau) | 3 |
+| 9x1 Verbindungsschiene (Schwarz) | 3 |
+| T - Verbindungsstück (Schwarz) | 2 |
+| Kreuz - Verbindungsstück (Lila) | 4 |
+| Kreuz - Verbindungsstück (Schwarz) | 1 |
 
 ![alt Text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Images/Bauanleitung%20Roboter%20Bild.jpg)
