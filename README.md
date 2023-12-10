@@ -8,11 +8,10 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 
 | Bauteil | Anzahl |                
 |---------|--------|
-|  *Motorrad*      |
 | Lego Spike Hub   | 1      |    
 | Großer Motor     | 1      |
 | Kleiner Motor    | 2      |
 | Große Räder      | 2      |
-|
+| Schwarze Verbindungstücke | 50     |
 
 ![alt Text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Images/Bauanleitung%20Roboter%20Bild.jpg)
