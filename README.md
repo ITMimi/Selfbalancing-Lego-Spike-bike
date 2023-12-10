@@ -51,8 +51,9 @@ Hier CAD einfügen.
 Im Folgenden gehen wir durch jede Zeile des Codes und erklären diese. 
 <br />
 
-*Start des Prgramms*
+__*Start des Prgramms*__
 <br />
+
 _1. Wenn Programm startet_
 <br />
 _2. Motor B gehe auf kürzestem Wege auf Position 0_
@@ -68,7 +69,7 @@ _4. setze Gierwinkel auf 0_
 
 Der Gierwinkel wird in der Startposition auf 0 gesetzt. Dadurch werden Abweichungen im Roll-Winkel, welche durch die Startposition verursacht werden ausgeglichen.
 
-*Initialisierung von Variablen und Parametern* 
+__*Initialisierung von Variablen und Parametern*__ 
 
 _5. setzte Result auf 0_
 <br />
