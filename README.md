@@ -6,7 +6,8 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 (https://www.youtube.com/watch?v=MCVW2Uqanlw).
 
 ## Bauanleitung
-|Bauteil|Anzahl|
------------------
+
+| Bauteil | Anzahl |
+|---------|--------|
 
 
