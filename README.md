@@ -7,8 +7,8 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 
 ## Bauanleitung
 
-| Bauteil | Anzahl |                ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+| Bauteil | Anzahl |                
 |---------|--------|
 | Räder   | 2      |    
 
-
+![alt text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Bilder/Bauanleitung%20Roboter%20Bild.jpg)
