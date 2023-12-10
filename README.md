@@ -6,9 +6,9 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 
 ## Bauanleitung
 
-| Bauteil | Anzahl |                
-|---------|--------|
-| Lego Spike Hub   | 1      |    
+| Bauteil | Anzahl | Bild |                
+|---------|--------|------|
+| Lego Spike Hub   | 1      | ![alt Text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Images/Bauanleitung%20Roboter%20Bild.jpg) 
 | Großer Motor     | 1      |
 | Kleiner Motor    | 2      |
 | Großes Rad      | 2      |
@@ -23,4 +23,4 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 | Kreuz - Verbindungsstück (Lila) | 4 |
 | Kreuz - Verbindungsstück (Schwarz) | 1 |
 
-![alt Text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Images/Bauanleitung%20Roboter%20Bild.jpg)
+
