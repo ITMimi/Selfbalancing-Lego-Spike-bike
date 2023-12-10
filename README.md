@@ -6,9 +6,9 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 
 ## Bauanleitung
 
-| Bauteil | Anzahl | Bild |                
+| Bauteil | Anzahl | ![alt Text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Images/Bauanleitung%20Roboter%20Bild.jpg) |                
 |---------|--------|------|
-| Lego Spike Hub   | 1      | ![alt Text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Images/Bauanleitung%20Roboter%20Bild.jpg) 
+| Lego Spike Hub   | 1      |  
 | Großer Motor     | 1      |
 | Kleiner Motor    | 2      |
 | Großes Rad      | 2      |
