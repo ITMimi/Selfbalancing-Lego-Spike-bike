@@ -7,8 +7,8 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 
 ## Bauanleitung
 
-| Bauteil | Anzahl |
+| Bauteil | Anzahl |                ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 |---------|--------|
-| Räder   | 2      |
+| Räder   | 2      |    
 
 
