@@ -40,6 +40,7 @@ _12. setze Integral auf 0_
 
 In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden initialisiert und auf 0 gesetzt. Prinzipiell sollte das nicht notwendig sein, jedoch sind wir in der Testphase auf das Problem gestoßen, dass die Variablen nicht beim erneuten ausführen des Programms zurückgesetzt wurde, was zu Fehlern geführt hat. 
 
+## Evtl. erläutern was es bei den Werten und Parametern auf sich hat.
 _13. setzte Steerpower auf 2.6_
 <br />
 _14. setze Kp auf 1_
