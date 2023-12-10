@@ -14,6 +14,6 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 | Großes Rad      | 2      |
 | 4x2 Baustein | 8     |
 | 16x2 Baustein Flach | 2  |
-| 8x2 Baustein Flach | 2  |
+| 8x2 Baustein Flach   | 2  |
 
 ![alt Text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Images/Bauanleitung%20Roboter%20Bild.jpg)
