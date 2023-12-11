@@ -149,6 +149,11 @@ _30. Motor B stoppe Motor_
 _31. Motor B gehe auf kürzestem Wege auf Position 0_
 <br />
 
+Wenn die Schleife beendet wurde, da der Betrag vom Roll-Winkel größer als 70 geworden ist, also das Motorrad umgekippt ist, werden sowohl der Antrieb, als auch der Motor für die Lenkung gestoppt. Außerdem wird das Vorderrad wieder in die Startposition 0 gebracht. 
+
+## Unterschiede Spike-App und Mindstorms-App 
+
+Grundsätzlich funktioniert der oben beschriebene Code sowohl in der Spike- als auch in der Mindstorms-App. Wir haben jedoch festgestellt, dass ein Wert angepasst werden muss. 
 
 # Controller-Steuerung
 
@@ -160,6 +165,12 @@ _31. Motor B gehe auf kürzestem Wege auf Position 0_
 
 
 # Fazit  
+
+## Ergebnis
+
+In den beiden Videos ist das Selfbalancing-Lego-Spike-bike zu sehen. Sowohl auf dem Teppichboden, als auch auf dem etwas glatteren Bodenbelag ist das Motorrad in der Lage eingenständig zu fahren und sich durch Lenkbewegungen auszubalancieren. 
+
+
 
 https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/547acb4e-3f02-45bf-bd1d-e70390bd240c
 
