@@ -103,17 +103,19 @@ _16. setze Kd auf 18_
 _17. setze Kh auf 0.26_
 <br />
 
-Erklärung
+Hier werden die einzelnen Parameter initialisiert und es wird jeweils ein Wert zugewiesen. Die Parameter werden in der Schleife genutzt um die verschiedenen Variablen (Error, Derrivate, etc.) zu gewichten. Wir haben die besten Ergebnisse mit den hier angegebenen Werten erzielt. In der Balancing-Schleife gehen wir noch einmal genauer auf die Werte ein.  
 
 __*Antrieb*__
 <br />
 
-_18. Motor stelle Geschwindigkeit auf -85% ein_
+_18. Motorpaar stelle Geschwindigkeit auf -85% ein_
 <br />
-_19. Motor weise Bewegungsmotoren Anschlüsse E+F zu_
+_19. Motorpaar weise Bewegungsmotoren Anschlüsse E+F zu_
 <br />
-_20. Motor starte Bewegung geradeaus:0_
+_20. Motorpaar starte Bewegung geradeaus:0_
 <br />
+
+Dieser Codeabschnitt verbindet die beiden Motoren, welche an den Anschlüssen E und F befestigt sind, zu einem Motorpaar. Die Gewschwindigkeit wird auf -85% gesetzt. Dabei ist es relevant zu beachten, mit welcher Ausrichtung die Motoren an dem Hinterrad befestigt sind. In unserem Setup mussten sich die Motoren nach "hinten" drehen, um das Motorrad nach vorne anzutreiben. Daher das Minus vor dem Geschwindigkeitswert. Wenn die beiden Motoren getauscht und auf die jeweils andere Seite des Rads montiert werden, muss auch das Vorzeichen geändert werden. 
 
 __*Schleife*__
 <br />
@@ -134,6 +136,8 @@ _27. setze Result auf (Error * Kp) + (Integral * Ki) + (Derrivate * Kd)+ (Headin
 <br />
 _28. Motor B starte Motor mit Result * Steerpower % Leistung_
 <br />
+
+Kommen wir nun zum Herzstück des Codes. Diese Schleife nutzt die verschiedenen Variablen und Parameter um auf die Änderungen im Roll-Winkel des Motorrads zu reagieren und dieses durch Lenkbewegungen auszubalancieren. Dazu wird eine "while-Schleife" verwendet, die so lange geöffnet bleibt, bis der Betrag vom Roll-Winkel größer als 70 ist. Diese Grenze dient der Erkennung, ob das Motorrad umgefallen ist. Wenn also das Motorrad in eine Richtung weiter als 70 Grad kippt, endet die Schleife. Es ist wichtig den Betrag zu verwenden, da der Roll-Winkel in eine Kipprichtung ins Negative kleiner wird. In den nächsten Zeilen werden die verschiedenen Variablen berechnet. Zuerst wird der "Error"-Wert berechnet. Dieser ist das Balance-Target, welches auf 0 festgelegt ist minus dem aktuellen Roll-Winkel. 
 
 __*Roboter Umgekippt*__
 <br />
