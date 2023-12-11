@@ -170,11 +170,16 @@ Grundsätzlich funktioniert der oben beschriebene Code sowohl in der Spike- als 
 
 In den beiden Videos ist das Selfbalancing-Lego-Spike-bike zu sehen. Sowohl auf dem Teppichboden, als auch auf dem etwas glatteren Bodenbelag ist das Motorrad in der Lage eingenständig zu fahren und sich durch Lenkbewegungen auszubalancieren. 
 
-
-
 https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/547acb4e-3f02-45bf-bd1d-e70390bd240c
 
 https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/27c758a2-e49b-49fe-b1d6-4038bd6fde2a
 
+## Probleme in der Entwicklung
+
+Wir haben zuerst eine andere, weniger kompakte, Bauweise für das Motorrad gewählt. Dadurch wird es jedoch deutlich schwieriger dieses auszubalancieren. Wir haben uns daher dazu entschieden uns an der Bauweise aus dem [YouTube-Video](https://www.youtube.com/watch?v=IiCZoNBiXc0) zu orientieren. Auch bei der programmierung haben wir uns an dem [Video](https://www.youtube.com/watch?v=IiCZoNBiXc0&t=0s) von der [Creator Academy Australia](https://www.youtube.com/watch?v=MCVW2Uqanlw) orientiert. Dabei haben wir jedoch sehr schnell festgestellt, dass die in dem Video gewählten Parameter für unser Modell nicht funktionieren. Daher haben wir begonnen systematisch die verschiedenen Parameter zu variieren und die Veränderungen in der zurückgelegten Distanz zu messen. Dabei machten wir kaum messbare Fortschritte. Auffällig war, dass das Motorrad auch bei kleinen Kippwinkeln sehr stark gegengelenkt hat und dadurch noch schneller umgekippt ist. Wir haben daher den Parameter (Kp), welcher den Fehler-Wert (Error) gewichtet von 2 auf 1 halbiert. Danach war das Motorrad in der Lage sich selbst auszubalancieren. Die anderen Parameter spielen dabei zum Teil eine untergeordnete Rolle. 
+
+__*Controller-Steuerung*__
+
+Nachdem das Motorrad in der Lage war, sich selbst auszubalancieren, haben wir versucht eine Controller-Steuerung zu implementieren. Dabei sind wir leider auf verschiedene Probleme gestoßen, welche wir aus zeitlichen Gründen nicht mehr lösen konnten. Am entscheidensten war der Unterschied vom Download- zum Streaming-Modus. Während die Balancierung im Download-Modus, mit den oben gewählten Werten, problemlos funktioniert, ist das Motorrad im Streaming-Modus bei gleichem Code nicht mehr in der Lage zu fahren.  
 
 
