@@ -153,7 +153,7 @@ Wenn die Schleife beendet wurde, da der Betrag vom Roll-Winkel größer als 70 g
 
 ## Unterschiede Spike-App und Mindstorms-App 
 
-Grundsätzlich funktioniert der oben beschriebene Code sowohl in der Spike- als auch in der Mindstorms-App. Wir haben jedoch festgestellt, dass ein Wert angepasst werden muss. 
+Der oben beschriebene Code funktioniert sowohl in der Spike-App als auch in der Mindstorms-App. Lediglich die Geschwindigkeit des Antriebs wurde von 85% auf 100% erhöht.   
 
 # Controller-Steuerung
 
