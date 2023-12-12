@@ -122,17 +122,17 @@ __*Schleife*__
 
 _21. wiederhole bis Betrag von Roll-Winkel > 70_
 <br />  
-_22. setze Error auf Balance Target - Roll-Winkel_        Error =  -25 
+_22. setze Error auf Balance Target - Roll-Winkel_         
 <br />
-_23. setze Integral auf Integral + Error * 0.25_          Integral = -6,25
+_23. setze Integral auf Integral + Error * 0.25_
 <br />
-_24. setze Derrivate auf Error - previous error_          Derrivate = - 12 - -11 = -1 
+_24. setze Derrivate auf Error - previous error_            
 <br />
 _25. setze previous error auf Error_                      
 <br />
-_26. setze Heading auf Heading Target - Gier-winkel_      Heading = 5
+_26. setze Heading auf Heading Target - Gier-winkel_      
 <br />
-_27. setze Result auf (Error * Kp) + (Integral * Ki) + (Derrivate * Kd)+ (Heading * Kh)_    -25 + -6,25*0,02 + -15 * 18 + 5 * 0.26
+_27. setze Result auf (Error * Kp) + (Integral * Ki) + (Derrivate * Kd)+ (Heading * Kh)_    
 <br />
 _28. Motor B starte Motor mit Result * Steerpower % Leistung_
 <br />
@@ -141,9 +141,16 @@ Kommen wir nun zum Herzstück des Codes. Diese Schleife nutzt die verschiedenen 
 
 In den Zeilen 22 bis 26 werden die verschiedenen Variablen berechnet. Zuerst wird der "Error"-Wert, also die Abweichung des Roll-Winkels zum Zielwert (Balance Target, 0), berechnet. 
 
-Das Integral bildet die Tendenz ab, in welche das Motorrad häufiger kippt. Der Wert ergibt sich durch die Addition des voherigen Werts mit dem Error-Wert, welcher mit dem Faktor 0.25 gewichtet wird. Da der Error Wert je nach Kipprichtung positiv oder negativ ist, gleicht sich das Integral aus und sollte sich im Optimalfall um 0 herum bewegen. Kippt das Motorrad jedoch häufiger in eine Richtung wird der Wert dementsprechen größer oder kleiner (negativ) und sorgt so dafür, dass die Ausgleichsbewegungen in die eine Richtung verstärkt und in die andere Richtung abgeschwächt wird. 
+Das Integral bildet die Tendenz ab, in welche das Motorrad häufiger kippt. Der Wert ergibt sich durch die Addition des vorherigen Werts mit dem Error-Wert, welcher mit dem Faktor 0.25 gewichtet wird. Da der Error Wert je nach Kipprichtung positiv oder negativ ist, gleicht sich das Integral aus und sollte sich im Optimalfall um 0 herum bewegen. Kippt das Motorrad jedoch häufiger in eine Richtung wird der Wert dementsprechen größer oder kleiner (negativ) und sorgt so dafür, dass die Ausgleichsbewegungen in die eine Richtung verstärkt und in die andere Richtung abgeschwächt wird. 
 
-Die Variable 
+__Neu formulieren, nur damit ich mir den grundsätzlichen Sinn merke__ In der Variable "Derrivate" wird der vorherige Fehler berücksichtigt. Wenn das Motorrad durch die Vorherige Ausgleichsbewegung zu stark in die andere Richtung kippt wird auch die darauf folgende Ausgleichsbewegung stärker um das ganze so auszugleichem. Im Optimalfall ist die Differenz zwischen aktuellem und vorherigen Fehler möglichst klein, da dies bedeutet, dass die Ausgleichsbewegungen sehr sanft sind. 
+
+__Neu formulieren, nur damit ich mir den grundsätzlichen Sinn merke__ Die Variable Heading soll dafür sorgen, dass das Motorrad möglichst auf einer geraden  Linie fährt und berücksichtigt daher noch den Gier-Winkel, also der Winkel, welcher sich verändert, wenn sich das Motorrad nach links oder rechts ausrichtet. 
+
+In der Zeile 27 werden diese Variablen dann mit den vorher festgelegten Parametern gewichtet und addiert. Deutlich wird, dass vor allem die Variable "Derrvivate" und "Error" dabei eine große Rolle spielen. Die Stabilität des Motorrads wird vom Integral und dem Heading kaum beeinflusst. Wir haben zum Test die Variable Integral rausgenommen und das Motorrad war dennoch in der Lage sich selbst auszubalancieren. Jedoch funktionierte es etwas sanfter, wenn die Variable behalten wird. 
+
+Am Ende wird der Motor, welcher für die Lenkung genutzt wird und bei uns am Anschluss B angeschlossen wurde mit der entsprechenden Leistung gestartet. Die Lenkrichtung wird dabei durch das Vorzeichen des Wertes "Result" bestimmt.
+
 __*Roboter Umgekippt*__
 <br />
 
