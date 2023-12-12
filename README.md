@@ -69,7 +69,7 @@ Wird das Programm gestartet, wird das Vorderrad gerade (auf Position 0) gestellt
 _4. setze Gierwinkel auf 0_
 <br />
 
-Der Gierwinkel wird in der Startposition auf 0 gesetzt. Dadurch werden Abweichungen im Roll-Winkel, welche durch die Startposition verursacht werden ausgeglichen.
+Der Gierwinkel wird in der Startposition auf 0 gesetzt. Dadurch werden durch die Startposition verursachte Abweichungen im Roll-Winkel ausgeglichen.
 
 __*Initialisierung von Variablen und Parametern*__ 
 
@@ -90,7 +90,7 @@ _11. setze previous error auf 0_
 _12. setze Integral auf 0_
 <br />
 
-In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden initialisiert und auf 0 gesetzt. Prinzipiell sollte das nicht notwendig sein, jedoch sind wir in der Testphase auf das Problem gestoßen, dass die Variablen nicht beim erneuten ausführen des Programms zurückgesetzt wurde, was zu Fehlern geführt hat. 
+In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden initialisiert und auf 0 gesetzt. Prinzipiell sollte das nicht notwendig sein, jedoch sind wir in der Testphase auf das Problem gestoßen, dass die Variablen nicht beim erneuten ausführen des Programms zurückgesetzt wurden, was zu Fehlern geführt hat. 
 
 _13. setzte Steerpower auf 2.6_
 <br />
@@ -115,30 +115,35 @@ _19. Motorpaar weise Bewegungsmotoren Anschlüsse E+F zu_
 _20. Motorpaar starte Bewegung geradeaus:0_
 <br />
 
-Dieser Codeabschnitt verbindet die beiden Motoren, welche an den Anschlüssen E und F befestigt sind, zu einem Motorpaar. Die Gewschwindigkeit wird auf -85% gesetzt. Dabei ist es relevant zu beachten, mit welcher Ausrichtung die Motoren an dem Hinterrad befestigt sind. In unserem Setup mussten sich die Motoren nach "hinten" drehen, um das Motorrad nach vorne anzutreiben. Daher das Minus vor dem Geschwindigkeitswert. Wenn die beiden Motoren getauscht und auf die jeweils andere Seite des Rads montiert werden, muss auch das Vorzeichen geändert werden. 
+Dieser Codeabschnitt verbindet die beiden (Antriebs-)Motoren, welche an den Anschlüssen E und F befestigt sind, zu einem Motorpaar. Die Gewschwindigkeit wird auf -85% gesetzt. Dabei ist es relevant zu beachten, mit welcher Ausrichtung die Motoren an dem Hinterrad befestigt sind. In unserem Setup mussten sich die Motoren nach "hinten" drehen, um das Motorrad nach vorne anzutreiben. Daher das Minus vor dem Geschwindigkeitswert. Wenn die beiden Motoren getauscht und auf die jeweils andere Seite des Rads montiert werden, muss auch das Vorzeichen geändert werden. 
 
 __*Schleife*__
 <br />
 
 _21. wiederhole bis Betrag von Roll-Winkel > 70_
+<br />  
+_22. setze Error auf Balance Target - Roll-Winkel_        Error =  -25 
 <br />
-_22. setze Error auf Balance Target - Roll-Winkel_
+_23. setze Integral auf Integral + Error * 0.25_          Integral = -6,25
 <br />
-_23. setze Integral auf Integral + Error * 0.25_
+_24. setze Derrivate auf Error - previous error_          Derrivate = - 12 - -11 = -1 
 <br />
-_24. setze Derrivate auf Error - previous error_
+_25. setze previous error auf Error_                      
 <br />
-_25. setze previous error auf Error_
+_26. setze Heading auf Heading Target - Gier-winkel_      Heading = 5
 <br />
-_26. setze Heading auf Heading Target - Gier-winkel_
-<br />
-_27. setze Result auf (Error * Kp) + (Integral * Ki) + (Derrivate * Kd)+ (Heading * Kh)_
+_27. setze Result auf (Error * Kp) + (Integral * Ki) + (Derrivate * Kd)+ (Heading * Kh)_    -25 + -6,25*0,02 + -15 * 18 + 5 * 0.26
 <br />
 _28. Motor B starte Motor mit Result * Steerpower % Leistung_
 <br />
 
-Kommen wir nun zum Herzstück des Codes. Diese Schleife nutzt die verschiedenen Variablen und Parameter um auf die Änderungen im Roll-Winkel des Motorrads zu reagieren und dieses durch Lenkbewegungen auszubalancieren. Dazu wird eine "while-Schleife" verwendet, die so lange geöffnet bleibt, bis der Betrag vom Roll-Winkel größer als 70 ist. Diese Grenze dient der Erkennung, ob das Motorrad umgefallen ist. Wenn also das Motorrad in eine Richtung weiter als 70 Grad kippt, endet die Schleife. Es ist wichtig den Betrag zu verwenden, da der Roll-Winkel in eine Kipprichtung ins Negative kleiner wird. In den nächsten Zeilen werden die verschiedenen Variablen berechnet. Zuerst wird der "Error"-Wert berechnet. Dieser ist das Balance-Target, welches auf 0 festgelegt ist minus dem aktuellen Roll-Winkel. 
+Kommen wir nun zum Herzstück des Codes. Diese Schleife nutzt die verschiedenen Variablen und Parameter um auf die Änderungen im Roll-Winkel des Motorrads zu reagieren und dieses durch Lenkbewegungen auszubalancieren. Dazu wird eine "while-Schleife" verwendet, die so lange geöffnet bleibt, bis der Betrag vom Roll-Winkel größer als 70 ist. Diese Grenze dient der Erkennung, ob das Motorrad umgefallen ist. Wenn also das Motorrad in eine Richtung weiter als 70 Grad kippt, endet die Schleife. Es ist wichtig den Betrag zu verwenden, da der Roll-Winkel in eine Kipprichtung ins Negative kleiner wird. 
 
+In den Zeilen 22 bis 26 werden die verschiedenen Variablen berechnet. Zuerst wird der "Error"-Wert, also die Abweichung des Roll-Winkels zum Zielwert (Balance Target, 0), berechnet. 
+
+Das Integral bildet die Tendenz ab, in welche das Motorrad häufiger kippt. Der Wert ergibt sich durch die Addition des voherigen Werts mit dem Error-Wert, welcher mit dem Faktor 0.25 gewichtet wird. Da der Error Wert je nach Kipprichtung positiv oder negativ ist, gleicht sich das Integral aus und sollte sich im Optimalfall um 0 herum bewegen. Kippt das Motorrad jedoch häufiger in eine Richtung wird der Wert dementsprechen größer oder kleiner (negativ) und sorgt so dafür, dass die Ausgleichsbewegungen in die eine Richtung verstärkt und in die andere Richtung abgeschwächt wird. 
+
+Die Variable 
 __*Roboter Umgekippt*__
 <br />
 
