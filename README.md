@@ -121,6 +121,7 @@ __*Schleife*__
 <br />
 
 _21. wiederhole bis Betrag von Roll-Winkel > 70_
+<br />
 _22. setze Error auf Balance Target - Roll-Winkel_         
 _23. setze Integral auf Integral + Error * 0.25_
 _24. setze Derrivate auf Error - previous error_            
