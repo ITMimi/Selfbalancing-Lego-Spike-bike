@@ -130,7 +130,7 @@ _27. setze Result auf (Error * Kp) + (Integral * Ki) + (Derrivate * Kd)+ (Headin
 _28. Motor B starte Motor mit Result * Steerpower % Leistung_
 <br />
 
-Kommen wir nun zum Herzstück des Codes. Diese Schleife nutzt die verschiedenen Variablen und Parameter um auf die Änderungen im Roll-Winkel des Motorrads zu reagieren und dieses durch Lenkbewegungen auszubalancieren. Dazu wird eine "while-Schleife" verwendet, die so lange geöffnet bleibt, bis der Betrag vom Roll-Winkel größer als 70 ist. Diese Grenze dient der Erkennung, ob das Motorrad umgefallen ist. Wenn also das Motorrad in eine Richtung weiter als 70 Grad kippt, endet die Schleife. Es ist wichtig den Betrag zu verwenden, da der Roll-Winkel in eine Kipprichtung ins Negative kleiner wird. 
+Kommen wir nun zum Herzstück des Codes. Diese Schleife nutzt die verschiedenen Variablen und Parameter um auf die Änderungen im Roll-Winkel des Motorrads zu reagieren und dieses durch Lenkbewegungen auszubalancieren. Dazu wird eine "while-Schleife" verwendet, die so lange geöffnet bleibt, bis der Betrag vom Roll-Winkel größer als 70 ist. Diese Grenze dient der Erkennung, ob das Motorrad umgefallen ist. Wenn also das Motorrad in eine Richtung weiter als 70 Grad kippt, endet die Schleife. Wichtig ist es dabei den Betrag zu verwenden, da der Roll-Winkel in eine Kipprichtung ins Negative kleiner wird. 
 
 In den Zeilen 22 bis 26 werden die verschiedenen Variablen berechnet. Zuerst wird der "Error"-Wert, also die Abweichung des Roll-Winkels zum Zielwert (Balance Target, 0), berechnet. 
 
