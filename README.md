@@ -169,7 +169,7 @@ Der oben beschriebene Code funktioniert sowohl in der Spike-App als auch in der 
 ## Code Erklärung
 
 
-# Fazit  
+# Zusammenfassung
 
 ## Ergebnis
 
