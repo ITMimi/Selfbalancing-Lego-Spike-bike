@@ -50,7 +50,7 @@ Hier CAD einfügen.
 
 ## Code Erklärung:
 
-Im Folgenden gehen wir durch jede Zeile des Codes und erklären diese. 
+Im Folgenden gehen wir durch die verschiedenen Abschnitte des Codes und erklären diese. 
 <br />
 
 __*Start des Prgramms*__
@@ -90,7 +90,7 @@ _11. setze previous error auf 0_
 _12. setze Integral auf 0_
 <br />
 
-In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden initialisiert und auf 0 gesetzt. Prinzipiell sollte das nicht notwendig sein, jedoch sind wir in der Testphase auf das Problem gestoßen, dass die Variablen nicht beim erneuten ausführen des Programms zurückgesetzt wurden, was zu Fehlern geführt hat. 
+In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden deklariert und auf 0 gesetzt. Prinzipiell sollte das nicht notwendig sein, jedoch wurden die Variablen in manchen Tests nach dem Beenden des Programms nicht zurückgesetzt und es wurde mit den vorherigen Werten weitergerechnet, was zu Fehlern geführt hat.   
 
 _13. setzte Steerpower auf 2.6_
 <br />
@@ -103,7 +103,7 @@ _16. setze Kd auf 18_
 _17. setze Kh auf 0.26_
 <br />
 
-Hier werden die einzelnen Parameter initialisiert und es wird jeweils ein Wert zugewiesen. Die Parameter werden in der Schleife genutzt um die verschiedenen Variablen (Error, Derrivate, etc.) zu gewichten. Wir haben die besten Ergebnisse mit den hier angegebenen Werten erzielt. In der Balancing-Schleife gehen wir noch einmal genauer auf die Werte ein.  
+Hier werden die einzelnen Parameter initialisiert. Die Parameter werden in der Schleife genutzt um die oben deklarierten Variablen (Error, Derrivate, etc.) zu gewichten. Wir haben die besten Ergebnisse mit den hier angegebenen Werten erzielt. In der Balancing-Schleife gehen wir noch einmal genauer auf die Werte ein.  
 
 __*Antrieb*__
 <br />
@@ -154,7 +154,7 @@ _30. Motor B stoppe Motor_
 _31. Motor B gehe auf kürzestem Wege auf Position 0_
 <br />
 
-Wenn die Schleife beendet wurde, da der Betrag vom Roll-Winkel größer als 70 geworden ist, also das Motorrad umgekippt ist, werden sowohl der Antrieb, als auch der Motor für die Lenkung gestoppt. Außerdem wird das Vorderrad wieder in die Startposition 0 gebracht. 
+Dieser Teil des Codes wird nur erreicht, wenn die Schleife beendet wurde, also das Motorrad umgekippt ist. Das Antriebsmotorpaar wird dann gestoppt, und das Vorderrad wieder in die Anfangsposition gedreht.  
 
 ## Unterschiede Spike-App und Mindstorms-App 
 
