@@ -50,7 +50,7 @@ Hier CAD einfügen.
 
 ## Code Erklärung:
 
-Im Folgenden gehen wir durch die verschiedenen Abschnitte des Codes und erklären diese. 
+Für die Programmierung des Motorrads haben wir den Textblockmodus der Spike- bzw. Mindstorms-App verwendet. Im Folgenden gehen wir durch die verschiedenen Abschnitte des Codes und erklären diese. Dabei sind die einzelnen Textblöcke kursiv geschrieben und durchnummeriert.  
 <br />
 
 __*Start des Prgramms*__
