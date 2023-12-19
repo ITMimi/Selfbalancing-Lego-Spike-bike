@@ -156,8 +156,8 @@ und den Steuerungscode teilen. Genutzt wurde ein Playstation 4 Controller. Es is
 
 | Download | Streaming |
 |----------|-----------|
-|![Streaming_Download-Modus](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/c1b60ce2-d6b6-49c4-913d-a3b10afbdc25)|![Streaming_Modus](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/59423d84-d9b5-4b0d-aa2f-572ab69415d5)
-
+|![Streaming_Download-Modus](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/c1b60ce2-d6b6-49c4-913d-a3b10afbdc25)|![Streaming_Modus](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/59423d84-d9b5-4b0d-aa2f-572ab69415d5)|
+|Der Download-Modus ist der Standardmodus zum Ausführen von Programmen. Das Programm wird dabei zunächst auf dem Hub gespeichert und dann ausgeführt.| Im Streaming-Modus werden die Programme in Echtzeit ausgeführt. Dadurch können noch Änderungen an den Programmparametern vorgenommen werden, während das Programm läuft. So können die Controller-Inputs registriert und berücksichtigt werden.|
 __*Start des Prgramms*__
 
      1. wenn das Programm startet
