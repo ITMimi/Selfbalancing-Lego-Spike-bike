@@ -69,7 +69,7 @@ An dieser Stelle wird der Gierwinkel des Gyroskops mit dem Wert 0 initialisiert.
 
      Alt.: setze Heading Target auf Gierwinkel
 
-Für den Roll-Winkel gilt gegenteiliges. Hier ist nicht die Abweichung von der Startposition sondern zum "absoluten" Wert relevant. Damit das Motorrad stabil bleibt, müssen durch die Startposition verursachte Abweichungen direkt mit berücksichtigt und ausgeglichen werden.      
+Für den Roll-Winkel gilt gegenteiliges. Hier ist nicht die Abweichung von der Startposition sondern zum "absoluten" Wert relevant. Damit das Motorrad stabil bleibt, müssen durch die Startposition verursachte Abweichungen direkt berücksichtigt und ausgeglichen werden.      
 
      5. setze Balance Target auf 0
      6. setze Heading Target auf 0
