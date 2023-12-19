@@ -59,7 +59,9 @@ __*Start des Prgramms*__
      2. Motor B gehe auf kürzestem Wege auf Position 0
      3. warte 1 Sekunden
 
- Nach dem Start des Programms wird als erstes das Vorderrad nach vorne ausgerichtet und so in die Startposition (Position 0) gebracht. Danach wartet das Programm für eine Sekunde und fährt dann fort.  
+ Nach dem Start des Programms wird als erstes das Vorderrad nach vorne ausgerichtet und so in die Startposition (Position 0) gebracht. Danach wartet das Programm für eine Sekunde und fährt dann fort.
+
+__*Initialisierung von Variablen und Parametern*__ 
 
      4. setze Gierwinkel auf 0
 
@@ -68,8 +70,6 @@ An dieser Stelle wird der Gierwinkel des Gyroskops mit dem Wert 0 initialisiert.
      Alt.: setze Heading Target auf Gierwinkel
 
 Für den Roll-Winkel gilt gegenteiliges. Hier ist nicht die Abweichung von der Startposition sondern zum "absoluten" Wert relevant. Damit das Motorrad stabil bleibt, müssen durch die Startposition verursachte Abweichungen direkt mit berücksichtigt und ausgeglichen werden.      
-
-__*Initialisierung von Variablen und Parametern*__ 
 
      5. setze Balance Target auf 0
      6. setze Heading Target auf 0
