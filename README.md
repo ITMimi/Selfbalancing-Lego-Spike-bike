@@ -157,6 +157,7 @@ und den Steuerungscode teilen. Genutzt wurde ein Playstation 4 Controller. Es is
 | Download | Streaming |
 |----------|-----------|
 |![Streaming_Download-Modus](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/c1b60ce2-d6b6-49c4-913d-a3b10afbdc25)|![Streaming_Modus](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/59423d84-d9b5-4b0d-aa2f-572ab69415d5)
+__*Start des Prgramms*__
 
      1. wenn das Programm startet
      2. B auf kürzestem Wege auf 0 bringen
@@ -172,11 +173,15 @@ Die Anfangsgeschwindigkeit wird auf (-)100 gesetzt. Auch hier muss die Ausrichtu
 
 Dem Antriebsmotorpaar werden die Anschlüsse E und F zugewiesen.
 
+__*Schleife*__
+
      6. wiederhole fortlaufend
      7. Motorpaar nach geradeaus: 0 mit Geschwindigkeit % Geschwindigkeit starten
      8. Motor B relative Position Controller links Joystick X-Achse mit einer Geschwindigkeit von 80% einnehmen
 
 In einer durchgängig offenen Schleife wird immer wieder das Antriebsmotorpaar mit der entsprechenden Geschwindigkeit gestartet. Da die Geschwindigkeit durch das Drücken von Knöpfen auf dem Controller verändert werden kann, muss die Geschwindigkeit in der Schleife immer wieder neu abgefragt werden. Außerdem wird das Vorderrad durch den Motor B in die Position gedreht, welche der X-Achse des linken Joysticks entspricht. Dadurch ist es möglich das Motorrad mit dem Joystick zu lenken (siehe Video). 
+
+__*Geschwindigkeits-Steuerung*__
 
      9. Controller wenn R2 gedrückt wird 
      10. setze Geschwindigkeit auf Geschwindigkeit + 10
