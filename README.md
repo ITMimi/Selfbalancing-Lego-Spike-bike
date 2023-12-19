@@ -63,7 +63,6 @@ _3. warte 1 Sekunden_
 <br />
 
  Nach dem Start des Programms wird als erstes das Vorderrad gerade ausgerichtet und so in die Startposition (Position 0) gebracht. Danach wartet das Programm für eine Sekunde und fährt dann fort.  
-<br />
 
 _4. setze Gierwinkel auf 0_
 
