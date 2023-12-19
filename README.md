@@ -71,10 +71,13 @@ Für den Roll-Winkel gilt gegenteiliges. Hier ist nicht die Abweichung von der S
 
 __*Initialisierung von Variablen und Parametern*__ 
 
-     5. setzte Result auf 0
-     6. setze Heading auf 0
-     7. setze Balance Target auf 0
-     8. setze Heading Target auf 0
+     5. setze Balance Target auf 0
+     6. setze Heading Target auf 0
+
+Blabla
+     
+     7. setzte Result auf 0
+     8. setze Heading auf 0
      9. setze Error auf 0
      10. setze Derrivate auf 0
      11. setze previous error auf 0     
