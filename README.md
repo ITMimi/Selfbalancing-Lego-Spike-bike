@@ -82,44 +82,32 @@ __*Initialisierung von Variablen und Parametern*__
 
 In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden deklariert und auf 0 gesetzt. Prinzipiell sollte das nicht notwendig sein, jedoch wurden die Variablen in manchen Tests nach dem Beenden des Programms nicht zurückgesetzt und es wurde mit den vorherigen Werten weitergerechnet, was zu Fehlern geführt hat.   
 
-_13. setzte Steerpower auf 2.6_
-<br />
-_14. setze Kp auf 1_
-<br />
-_15. setze Ki auf 0.02_
-<br />
-_16. setze Kd auf 18_
-<br />
-_17. setze Kh auf 0.26_
-<br />
+     13. setzte Steerpower auf 2.6
+     14. setze Kp auf 1
+     15. setze Ki auf 0.02
+     16. setze Kd auf 18
+     17. setze Kh auf 0.26
 
 Hier werden die einzelnen Parameter initialisiert. Die Parameter werden in der Schleife genutzt um die oben deklarierten Variablen (Error, Derrivate, etc.) zu gewichten. Wir haben die besten Ergebnisse mit den hier angegebenen Werten erzielt. In der Balancing-Schleife gehen wir noch einmal genauer auf die Werte ein.  
 
 __*Antrieb*__
-<br />
 
-_18. Motorpaar stelle Geschwindigkeit auf -85% ein_
-<br />
-_19. Motorpaar weise Bewegungsmotoren Anschlüsse E+F zu_
-<br />
-_20. Motorpaar starte Bewegung geradeaus:0_
-<br />
+     18. Motorpaar stelle Geschwindigkeit auf -85% ein
+     19. Motorpaar weise Bewegungsmotoren Anschlüsse E+F zu
+     20. Motorpaar starte Bewegung geradeaus: 0
 
 Dieser Codeabschnitt verbindet die beiden (Antriebs-)Motoren, welche an den Anschlüssen E und F befestigt sind, zu einem Motorpaar. Die Gewschwindigkeit wird auf -85% gesetzt. Dabei ist es relevant zu beachten, mit welcher Ausrichtung die Motoren an dem Hinterrad befestigt sind. In unserem Setup mussten sich die Motoren nach "hinten" drehen, um das Motorrad nach vorne anzutreiben. Daher das Minus vor dem Geschwindigkeitswert. Wenn die beiden Motoren getauscht und auf die jeweils andere Seite des Rads montiert werden, muss auch das Vorzeichen geändert werden. 
 
 __*Schleife*__
-<br />
 
-_21. wiederhole bis Betrag von Roll-Winkel > 70_
-<br />
-_22. setze Error auf Balance Target - Roll-Winkel_         
-_23. setze Integral auf Integral + Error * 0.25_
-_24. setze Derrivate auf Error - previous error_            
-_25. setze previous error auf Error_                      
-_26. setze Heading auf Heading Target - Gier-winkel_      
-_27. setze Result auf (Error * Kp) + (Integral * Ki) + (Derrivate * Kd)+ (Heading * Kh)_    
-_28. Motor B starte Motor mit Result * Steerpower % Leistung_
-<br />
+     21. wiederhole bis Betrag von Roll-Winkel > 70
+     22. setze Error auf Balance Target - Roll-Winkel         
+     23. setze Integral auf Integral + Error * 0.25
+     24. setze Derrivate auf Error - previous error            
+     25. setze previous error auf Error                      
+     26. setze Heading auf Heading Target - Gier-winkel      
+     27. setze Result auf (Error * Kp) + (Integral * Ki) + (Derrivate * Kd)+ (Heading * Kh)    
+     28. Motor B starte Motor mit Result * Steerpower % Leistung
 
 Kommen wir nun zum Herzstück des Codes. Diese Schleife nutzt die verschiedenen Variablen und Parameter um auf die Änderungen im Roll-Winkel des Motorrads zu reagieren und dieses durch Lenkbewegungen auszubalancieren. Dazu wird eine "while-Schleife" verwendet, die so lange geöffnet bleibt, bis der Betrag vom Roll-Winkel größer als 70 ist. Diese Grenze dient der Erkennung, ob das Motorrad umgefallen ist. Wenn also das Motorrad in eine Richtung weiter als 70 Grad kippt, endet die Schleife. Wichtig ist es dabei den Betrag zu verwenden, da der Roll-Winkel in eine Kipprichtung ins Negative kleiner wird. 
 
@@ -136,14 +124,10 @@ In der Zeile 27 werden diese Variablen dann mit den vorher festgelegten Paramete
 Am Ende wird der Motor, welcher für die Lenkung genutzt wird und bei uns am Anschluss B angeschlossen wurde mit der entsprechenden Leistung gestartet. Die Lenkrichtung wird dabei durch das Vorzeichen des Wertes "Result" bestimmt.
 
 __*Roboter Umgekippt*__
-<br />
 
-_29. Motorpaar halte an_
-<br />
-_30. Motor B stoppe Motor_
-<br />
-_31. Motor B gehe auf kürzestem Wege auf Position 0_
-<br />
+     29. Motorpaar halte an
+     30. Motor B stoppe Motor
+     31. Motor B gehe auf kürzestem Wege auf Position 0
 
 Dieser Teil des Codes wird nur erreicht, wenn die Schleife beendet wurde, also das Motorrad umgekippt ist. Das Antriebsmotorpaar wird dann gestoppt, und das Vorderrad wieder in die Anfangsposition gedreht.  
 
