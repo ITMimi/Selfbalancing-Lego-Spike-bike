@@ -151,6 +151,11 @@ Der oben beschriebene Code funktioniert sowohl in der Spike-App als auch in der 
 
 ## Code Erklärung
 
+Leider hat die Steuerungsumsetzung schlussendlich nicht funktioniert, dennoch wollen wir unseren Versuchscode nicht vorenthalten
+und den Steuerungscode teilen. 
+Es ist zu beachten, dass das Programm im "streaming mode" gestartet werden muss, wenn man eine Steuerung nutzt.
+'Bild einfügen'
+
 
 
 # Zusammenfassung
