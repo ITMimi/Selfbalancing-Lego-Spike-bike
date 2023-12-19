@@ -5,11 +5,12 @@ Bei dem im folgenden vorgestellte Projekt handelt es sich um einen Prototyp eine
 Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von dem YouTube Kanal [Creator Academy Australia](https://www.youtube.com/watch?v=MCVW2Uqanlw).
 
 ## Inhaltsverzeichnis
+||
+|-|
+|[1. Bauanleitung](#Bauanleitung)|
 
-[1. Bauanleitung](#Bauanleitung)
-
-[2. Code](#Code)<br/>
-&nbsp;&nbsp;&nbsp;[2.1 Downloads](#Downloads)
+|[2. Code](#Code)<br/>
+&nbsp;&nbsp;&nbsp;[2.1 Downloads](#Downloads)|
 
 # Bauanleitung
 
