@@ -113,7 +113,7 @@ Zuerst wird der "Error"-Wert, also die Abweichung des Roll-Winkels zum Zielwert 
 
      23. setze Integral auf Integral + Error * 0.25
 
-Das Integral bildet die Tendenz ab, in welche das Motorrad häufiger kippt. Der Wert ergibt sich durch die Addition des vorherigen Werts mit dem Error-Wert, welcher mit dem Faktor 0.25 gewichtet wird. Da der Error Wert je nach Kipprichtung positiv oder negativ ist, gleicht sich das Integral aus und sollte sich im Optimalfall um 0 herum bewegen. Kippt das Motorrad jedoch häufiger in eine Richtung wird der Wert dementsprechen größer oder kleiner (negativ) und sorgt so dafür, dass die Ausgleichsbewegungen in die eine Richtung verstärkt und in die andere Richtung abgeschwächt wird. 
+Das Integral bildet die Tendenz ab, in welche das Motorrad häufiger kippt. Der Wert ergibt sich durch die Addition des vorherigen Werts mit dem Error-Wert, welcher mit dem Faktor 0.25 gewichtet wird. Da der Error Wert je nach Kipprichtung positiv oder negativ ist, gleicht sich das Integral aus und sollte sich im Optimalfall um 0 herum bewegen. Kippt das Motorrad jedoch häufiger in eine Richtung wird der Wert dementsprechen größer oder kleiner (negativ) und sorgt so dafür, dass die Ausgleichsbewegungen in die eine Richtung verstärkt und in die andere Richtung abgeschwächt werden. 
 
      24. setze Derrivate auf Error - previous error
      25. setze previous error auf Error
