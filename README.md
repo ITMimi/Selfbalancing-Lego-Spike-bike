@@ -65,7 +65,7 @@ __*Initialisierung von Variablen und Parametern*__
 
      4. setze Gierwinkel auf 0
 
-An dieser Stelle wird der Gierwinkel des Gyroskops mit dem Wert 0 initialisiert. In den späteren Berechnungen wird die Abweichung der Ausrichtung ("Heading") während der Fahrt von der Ausrichtung zum Fahrtbeginn verwendet (s. Z. 26), um eine möglichst gerade Fahrt zu ermöglichen. Dazu ist es notwendig, dass der Zielwert der Ausrichtung ("Heading Target") der Ausrichtung zum Beginn entspricht. Wir haben uns dazu entschieden das "Heading Target" auf 0 (s. Z. 8) zu setzen und müssen daher den Gierwinkel zu Beginn dementsprechend initialisieren. Eine Alternative wäre es das "Heading Target" auf den Anfangswert des Gierwinkels zu setzen.
+An dieser Stelle wird der Gierwinkel des Gyroskops mit dem Wert 0 initialisiert. In den späteren Berechnungen wird die Abweichung der Ausrichtung ("Heading") während der Fahrt von der Ausrichtung zum Fahrtbeginn verwendet (s. Z. 26), um eine möglichst gerade Fahrt zu ermöglichen. Dazu ist es notwendig, dass der Zielwert der Ausrichtung ("Heading Target") der Ausrichtung zum Beginn entspricht. Wir haben uns dazu entschieden das "Heading Target" auf 0 (s. Z. 6) zu setzen und müssen daher den Gierwinkel zu Beginn dementsprechend initialisieren. Eine Alternative wäre es das "Heading Target" auf den Anfangswert des Gierwinkels zu setzen.
 
      Alt.: setze Heading Target auf Gierwinkel
 
@@ -74,7 +74,7 @@ Für den Roll-Winkel gilt gegenteiliges. Hier ist nicht die Abweichung von der S
      5. setze Balance Target auf 0
      6. setze Heading Target auf 0
 
-Blabla
+Die Zielwerte für die Ausrichtung ("Heading Target"), sowie für den Roll-Winkel ("Balance Target") werden auf 0 gesetzt.
      
      7. setzte Result auf 0
      8. setze Heading auf 0
@@ -83,7 +83,7 @@ Blabla
      11. setze previous error auf 0     
      12. setze Integral auf 0
 
-In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden, sowie das Heading- und Balance-Target deklariert und auf 0 gesetzt. 
+In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden deklariert und auf 0 gesetzt. Prinzipiell sollte es nicht notwendig sein, die Variablen bereits an dieser Stelle zu initialisieren. Wir sind jedoch in der Testphase auf das Problem gestoßen, dass einzelne Variablen nicht korrekt zurückgesetzt wurden, wenn das Programm neu gestartet wurde. Daher werden alle Variablen an dieser Stelle einmal auf 0 gesetzt. 
 
      13. setzte Steerpower auf 2.6
      14. setze Kp auf 1
@@ -91,7 +91,7 @@ In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benöti
      16. setze Kd auf 18
      17. setze Kh auf 0.26
 
-Hier werden die einzelnen Parameter initialisiert. Die Parameter werden in der Schleife genutzt um die oben deklarierten Variablen (Error, Derrivate, etc.) zu gewichten. Wir haben die besten Ergebnisse mit den hier angegebenen Werten erzielt. In der Balancing-Schleife gehen wir noch einmal genauer auf die Werte ein.  
+Hier werden die verschiedenen Parameter, mit denen die Variablen in der Balancing-Schleife (s.Z. 21) gewichtet werden, initialisiert. Wir haben die besten Ergebnisse mit den hier angegebenen Werten erzielt. In der Balancing-Schleife gehen wir noch einmal genauer auf die Werte ein.  
 
 __*Antrieb*__
 
