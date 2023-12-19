@@ -50,7 +50,7 @@ Hier CAD einfügen.
 
 ## Code Erklärung:
 
-Für die Programmierung des Motorrads haben wir den Textblockmodus der Spike- bzw. Mindstorms-App verwendet. Im Folgenden gehen wir durch die verschiedenen Abschnitte des Codes und erklären diese. Dabei sind die einzelnen Textblöcke kursiv geschrieben und durchnummeriert.  
+Für die Programmierung des Motorrads haben wir den Textblockmodus der Spike- bzw. Mindstorms-App verwendet. Im Folgenden gehen wir durch die verschiedenen Abschnitte des Codes und erklären diese. Die einzelnen Textbausteine sind entsprechend durchnummeriert.  
 
 __*Start des Prgramms*__
 <br />
@@ -71,22 +71,14 @@ Für den Roll-Winkel gilt genau gegenteiliges. Hier ist nicht die Startposition 
 
 __*Initialisierung von Variablen und Parametern*__ 
 
-_5. setzte Result auf 0_
-<br />
-_6. setze Heading auf 0_
-<br />
-_7. setze Balance Target auf 0_
-<br />
-_8. setze Heading Target auf 0_
-<br />
-_9. setze Error auf 0_
-<br />
-_10. setze Derrivate auf 0_
-<br />
-_11. setze previous error auf 0_
-<br />
-_12. setze Integral auf 0_
-<br />
+     5. setzte Result auf 0
+     6. setze Heading auf 0
+     7. setze Balance Target auf 0
+     8. setze Heading Target auf 0
+     9. setze Error auf 0
+     10. setze Derrivate auf 0
+     11. setze previous error auf 0     
+     12. setze Integral auf 0
 
 In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden deklariert und auf 0 gesetzt. Prinzipiell sollte das nicht notwendig sein, jedoch wurden die Variablen in manchen Tests nach dem Beenden des Programms nicht zurückgesetzt und es wurde mit den vorherigen Werten weitergerechnet, was zu Fehlern geführt hat.   
 
