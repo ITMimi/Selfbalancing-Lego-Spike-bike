@@ -174,7 +174,7 @@ Dem Antriebsmotorpaar werden die Anschlüsse E und F zugewiesen.
      7. Motorpaar nach geradeaus: 0 mit Geschwindigkeit % Geschwindigkeit starten
      8. Motor B relative Position Controller links Joystick X-Achse mit einer Geschwindigkeit von 80% einnehmen
 
-In einer durchgängig offenen Schleife wird immer wieder das Antriebsmotorpaar mit der entsprechenden Geschwindigkeit gestartet. Da die Geschwindigkeit durch das Drücken von Knöpfen auf dem Controller verändert werden kann, muss die Geschwindigkeit in der Schleife immer wieder neue Abgefragt werden. Außerdem wird das Vorderrad durch den Motor B in die Position gedreht, welche der X-Achse des linken Joysticks entspricht. Dadurch ist es möglich das Motorrad mit dem Joystick zu lenken (siehe Video). 
+In einer durchgängig offenen Schleife wird immer wieder das Antriebsmotorpaar mit der entsprechenden Geschwindigkeit gestartet. Da die Geschwindigkeit durch das Drücken von Knöpfen auf dem Controller verändert werden kann, muss die Geschwindigkeit in der Schleife immer wieder neu abgefragt werden. Außerdem wird das Vorderrad durch den Motor B in die Position gedreht, welche der X-Achse des linken Joysticks entspricht. Dadurch ist es möglich das Motorrad mit dem Joystick zu lenken (siehe Video). 
 
      9. Controller wenn R2 gedrückt wird 
      10. setze Geschwindigkeit auf Geschwindigkeit + 10
