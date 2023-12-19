@@ -20,8 +20,6 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 [4. Zusammenfassung](#Zusammenfassung)<br/>
 &nbsp;&nbsp;&nbsp;[4.1 Ergebnis](#Ergebnis)<br/>
 &nbsp;&nbsp;&nbsp;[4.2 Probleme in der Entwicklung](#Probleme-in-der-Entwicklung)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.2 Bauweise](#Bauweise)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.3 Programmierung](#Programmierung)<br/>
 
 # Bauanleitung
 
@@ -242,7 +240,7 @@ Im Laufe des Tests stellten wir außerdem fest, dass die Variablen nach Beendigu
 
 Dabei haben wir jedoch sehr schnell festgestellt, dass die in dem Video gewählten Parameter für unser Modell nicht funktionieren. Daher haben wir begonnen systematisch die verschiedenen Parameter zu variieren und die Veränderungen in der zurückgelegten Distanz zu messen. Dabei machten wir kaum messbare Fortschritte. Auffällig war, dass das Motorrad auch bei kleinen Kippwinkeln sehr stark gegengelenkt hat und dadurch noch schneller umgekippt ist. Wir haben daher den Parameter (Kp), welcher den Fehler-Wert (Error) gewichtet von 2 auf 1 halbiert. Danach war das Motorrad in der Lage sich selbst auszubalancieren. Die anderen Parameter spielen dabei zum Teil eine untergeordnete Rolle. 
 
-__*Controller-Steuerung*__
+### Controller-Steuerung
 
 Nachdem das Motorrad in der Lage war, sich selbst auszubalancieren, haben wir versucht eine Controller-Steuerung zu implementieren. Dabei sind wir leider auf verschiedene Probleme gestoßen, welche wir aus zeitlichen Gründen nicht mehr lösen konnten. Am entscheidensten war der Unterschied vom Download- zum Streaming-Modus. Während die Balancierung im Download-Modus, mit den oben gewählten Werten, problemlos funktioniert, ist das Motorrad im Streaming-Modus bei gleichem Code nicht mehr in der Lage zu fahren.  
 
