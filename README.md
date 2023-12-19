@@ -203,7 +203,7 @@ https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/de99e97
 
 ## Ergebnis
 
-In den beiden Videos ist das Selfbalancing-Lego-Spike-bike zu sehen. Sowohl auf dem Teppichboden, als auch auf dem etwas glatteren Bodenbelag ist das Motorrad in der Lage eingenständig zu fahren und sich durch Lenkbewegungen auszubalancieren. 
+In den beiden Videos ist unser Prototyp des sich selbst ausbalancierenden Motorrads zu sehen. Das Motorrad ist in der Lage längere Strecken zurückzulegen und sich dabei durch Lenkbewegungen auszugleichen, welche mithilfe des Gyroskosp berechnet werden. Getestet haben wir den Mechanismus auf Teppichboden (Video 1) und auf dem glatteren Gummibodenbelag (Video 2) 
 
 https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/547acb4e-3f02-45bf-bd1d-e70390bd240c
 
