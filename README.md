@@ -9,9 +9,19 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 [1. Bauanleitung](#Bauanleitung)
 
 [2. Code](#Code)<br/>
-&nbsp;&nbsp;&nbsp;[2.1 Downloads](#Downloads)
-&nbsp;&nbsp;&nbsp;[2.2 Code Erklärung](#Code-Erklärung)
+&nbsp;&nbsp;&nbsp;[2.1 Downloads](#Downloads)<br/>
+&nbsp;&nbsp;&nbsp;[2.2 Code Erklärung](#Code-Erklärung)<br/>
 &nbsp;&nbsp;&nbsp;[2.3 Unterschiede Spike-App und Mindstorms-App](#Unterschiede-Spike-App-und-Mindstorms-App)
+
+[3. Controller-Steuerung](#Controller-Steuerung)<br/>
+&nbsp;&nbsp;&nbsp;[3.1 Downloads](#Downloads-1)<br/>
+&nbsp;&nbsp;&nbsp;[3.2 Code Erklärung](#Code-Erklärung-1)<br/>
+
+[4. Zusammenfassung](#Zusammenfassung)<br/>
+&nbsp;&nbsp;&nbsp;[4.1 Ergebnis](#Ergebnis)<br/>
+&nbsp;&nbsp;&nbsp;[4.2 Probleme in der Entwicklung](#Probleme-in-der-Entwicklung)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.2 Bauweise](#Bauweise)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.3 Programmierung](#Programmierung)<br/>
 
 # Bauanleitung
 
