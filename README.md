@@ -6,9 +6,10 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 
 ## Inhaltsverzeichnis
 
-[1. Bauanleitung](#Bauanleitung)<br/>
-[2. Code](#Code)<br/>
-&nbsp;[2.1 Downloads](#Downloads)
+[1. Bauanleitung](#Bauanleitung)
+
+[2. Code](#Code)
+&nbsp;&nbsp;&nbsp;[2.1 Downloads](#Downloads)
 
 # Bauanleitung
 
