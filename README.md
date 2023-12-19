@@ -55,11 +55,11 @@ Für die Programmierung des Motorrads haben wir den Textblockmodus der Spike- bz
 __*Start des Prgramms*__
 <br />
 
-_1. Wenn Programm startet_
+     _1. Wenn Programm startet_
 <br />
-_2. Motor B gehe auf kürzestem Wege auf Position 0_
+     _2. Motor B gehe auf kürzestem Wege auf Position 0_
 <br />
-_3. warte 1 Sekunden_
+     _3. warte 1 Sekunden_
 <br />
 
  Nach dem Start des Programms wird als erstes das Vorderrad nach vorne ausgerichtet und so in die Startposition (Position 0) gebracht. Danach wartet das Programm für eine Sekunde und fährt dann fort.  
