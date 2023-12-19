@@ -67,7 +67,7 @@ An dieser Stelle wird der Gierwinkel des Gyroskops mit dem Wert 0 initialisiert.
 
      Alt.: setze Heading Target auf Gierwinkel
 
-Für den Roll-Winkel gilt genau gegenteiliges. Hier ist nicht die Startposition relevant sondern die absolute Position, welche möglichst 0 sein soll. Daher ist es wichtig, dass in den Lenkbewegungen etwaige Abweichungen durch die Startposition mit berücksichtigt werden.    
+Für den Roll-Winkel gilt gegenteiliges. Hier ist nicht die Abweichung von der Startposition sonder zum "absoluten" Wert relevant. Damit das Motorrad stabil bleibt, müssen durch die Startposition verursachte Abweichungen direkt mit berücksichtigt und ausgeglichen werden.      
 
 __*Initialisierung von Variablen und Parametern*__ 
 
