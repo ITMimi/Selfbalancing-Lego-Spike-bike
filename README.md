@@ -154,7 +154,10 @@ Der oben beschriebene Code funktioniert sowohl in der Spike-App als auch in der 
 Leider hat die Steuerungsumsetzung schlussendlich nicht funktioniert. Auf die Probleme gehen wir in der Zusammenfassung noch näher ein. Dennoch wollen wir unseren Versuchscode nicht vorenthalten
 und den Steuerungscode teilen. Genutzt wurde ein Playstation 4 Controller. Es ist zu beachten, dass das Programm im "streaming mode" gestartet werden muss, wenn man eine Steuerung nutzt. 
 
-![Streaming_Download-Modus](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/c1b60ce2-d6b6-49c4-913d-a3b10afbdc25)
+| Download | Streaming |
+|----------|-----------|
+|![Streaming_Download-Modus](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/c1b60ce2-d6b6-49c4-913d-a3b10afbdc25)|![Streaming_Modus](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/59423d84-d9b5-4b0d-aa2f-572ab69415d5)
+
 
      1. wenn das Programm startet
      2. B auf kürzestem Wege auf 0 bringen
