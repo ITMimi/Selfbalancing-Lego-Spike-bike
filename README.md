@@ -67,7 +67,7 @@ An dieser Stelle wird der Gierwinkel des Gyroskops mit dem Wert 0 initialisiert.
 
      Alt.: setze Heading Target auf Gierwinkel
 
-Für den Roll-Winkel gilt gegenteiliges. Hier ist nicht die Abweichung von der Startposition sonder zum "absoluten" Wert relevant. Damit das Motorrad stabil bleibt, müssen durch die Startposition verursachte Abweichungen direkt mit berücksichtigt und ausgeglichen werden.      
+Für den Roll-Winkel gilt gegenteiliges. Hier ist nicht die Abweichung von der Startposition sondern zum "absoluten" Wert relevant. Damit das Motorrad stabil bleibt, müssen durch die Startposition verursachte Abweichungen direkt mit berücksichtigt und ausgeglichen werden.      
 
 __*Initialisierung von Variablen und Parametern*__ 
 
@@ -80,7 +80,7 @@ __*Initialisierung von Variablen und Parametern*__
      11. setze previous error auf 0     
      12. setze Integral auf 0
 
-In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden deklariert und auf 0 gesetzt. Prinzipiell sollte das nicht notwendig sein, jedoch wurden die Variablen in manchen Tests nach dem Beenden des Programms nicht zurückgesetzt und es wurde mit den vorherigen Werten weitergerechnet, was zu Fehlern geführt hat.   
+In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden, sowie das Heading- und Balance-Target deklariert und auf 0 gesetzt. 
 
      13. setzte Steerpower auf 2.6
      14. setze Kp auf 1
