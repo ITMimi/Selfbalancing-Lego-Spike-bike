@@ -65,7 +65,7 @@ __*Initialisierung von Variablen und Parametern*__
 
      4. setze Gierwinkel auf 0
 
-An dieser Stelle wird der Gierwinkel des Gyroskops mit dem Wert 0 initialisiert. In den späteren Berechnungen wird die Abweichung der Ausrichtung ("Heading") während der Fahrt von der Ausrichtung zum Fahrtbeginn verwendet (s. Z. 26), um eine möglichst gerade Fahrt zu ermöglichen. Dazu ist es notwendig, dass der Zielwert der Ausrichtung ("Heading Target") der Ausrichtung zum Beginn entspricht. Wir haben uns dazu entschieden das "Heading Target" auf 0 (s. Z. 6) zu setzen und müssen daher den Gierwinkel zu Beginn dementsprechend initialisieren. Eine Alternative wäre es das "Heading Target" auf den Anfangswert des Gierwinkels zu setzen.
+An dieser Stelle wird der Gierwinkel des Gyroskops mit dem Wert 0 initialisiert. In den späteren Berechnungen wird die Abweichung der Ausrichtung ("Heading") während der Fahrt von der Ausrichtung zum Fahrtbeginn verwendet (s.Z. 26), um eine möglichst gerade Fahrt zu ermöglichen. Dazu ist es notwendig, dass der Zielwert der Ausrichtung ("Heading Target") der Ausrichtung zum Beginn entspricht. Wir haben uns dazu entschieden das "Heading Target" auf 0 (s.Z. 6) zu setzen und müssen daher den Gierwinkel zu Beginn dementsprechend initialisieren. Eine Alternative wäre es das "Heading Target" auf den Anfangswert des Gierwinkels zu setzen.
 
      Alt.: setze Heading Target auf Gierwinkel
 
@@ -104,23 +104,28 @@ Dieser Codeabschnitt verbindet die beiden (Antriebs-)Motoren, welche an den Ansc
 __*Schleife*__
 
      21. wiederhole bis Betrag von Roll-Winkel > 70
-     22. setze Error auf Balance Target - Roll-Winkel         
-     23. setze Integral auf Integral + Error * 0.25
-     24. setze Derrivate auf Error - previous error            
-     25. setze previous error auf Error                      
-     26. setze Heading auf Heading Target - Gier-winkel      
-     27. setze Result auf (Error * Kp) + (Integral * Ki) + (Derrivate * Kd)+ (Heading * Kh)    
-     28. Motor B starte Motor mit Result * Steerpower % Leistung
 
 Kommen wir nun zum Herzstück des Codes. Diese Schleife nutzt die verschiedenen Variablen und Parameter um auf die Änderungen im Roll-Winkel des Motorrads zu reagieren und dieses durch Lenkbewegungen auszubalancieren. Dazu wird eine "while-Schleife" verwendet, die so lange geöffnet bleibt, bis der Betrag vom Roll-Winkel größer als 70 ist. Diese Grenze dient der Erkennung, ob das Motorrad umgefallen ist. Wenn also das Motorrad in eine Richtung weiter als 70 Grad kippt, endet die Schleife. Wichtig ist es dabei den Betrag zu verwenden, da der Roll-Winkel in eine Kipprichtung ins Negative kleiner wird. 
 
-In den Zeilen 22 bis 26 werden die verschiedenen Variablen berechnet. Zuerst wird der "Error"-Wert, also die Abweichung des Roll-Winkels zum Zielwert (Balance Target, 0), berechnet. 
+     22. setze Error auf Balance Target - Roll-Winkel 
+
+Zuerst wird der "Error"-Wert, also die Abweichung des Roll-Winkels zum Zielwert (Balance Target, 0), berechnet.
+
+     23. setze Integral auf Integral + Error * 0.25
 
 Das Integral bildet die Tendenz ab, in welche das Motorrad häufiger kippt. Der Wert ergibt sich durch die Addition des vorherigen Werts mit dem Error-Wert, welcher mit dem Faktor 0.25 gewichtet wird. Da der Error Wert je nach Kipprichtung positiv oder negativ ist, gleicht sich das Integral aus und sollte sich im Optimalfall um 0 herum bewegen. Kippt das Motorrad jedoch häufiger in eine Richtung wird der Wert dementsprechen größer oder kleiner (negativ) und sorgt so dafür, dass die Ausgleichsbewegungen in die eine Richtung verstärkt und in die andere Richtung abgeschwächt wird. 
 
+     24. setze Derrivate auf Error - previous error
+     25. setze previous error auf Error
+
 __Neu formulieren, nur damit ich mir den grundsätzlichen Sinn merke__ In der Variable "Derrivate" wird der vorherige Fehler berücksichtigt. Wenn das Motorrad durch die Vorherige Ausgleichsbewegung zu stark in die andere Richtung kippt wird auch die darauf folgende Ausgleichsbewegung stärker um das ganze so auszugleichem. Im Optimalfall ist die Differenz zwischen aktuellem und vorherigen Fehler möglichst klein, da dies bedeutet, dass die Ausgleichsbewegungen sehr sanft sind. 
 
+     26. setze Heading auf Heading Target - Gier-winkel
+
 __Neu formulieren, nur damit ich mir den grundsätzlichen Sinn merke__ Die Variable Heading soll dafür sorgen, dass das Motorrad möglichst auf einer geraden  Linie fährt und berücksichtigt daher noch den Gier-Winkel, also der Winkel, welcher sich verändert, wenn sich das Motorrad nach links oder rechts ausrichtet. 
+      
+     27. setze Result auf (Error * Kp) + (Integral * Ki) + (Derrivate * Kd)+ (Heading * Kh)    
+     28. Motor B starte Motor mit Result * Steerpower % Leistung
 
 In der Zeile 27 werden diese Variablen dann mit den vorher festgelegten Parametern gewichtet und addiert. Deutlich wird, dass vor allem die Variable "Derrvivate" und "Error" dabei eine große Rolle spielen. Die Stabilität des Motorrads wird vom Integral und dem Heading kaum beeinflusst. Wir haben zum Test die Variable Integral rausgenommen und das Motorrad war dennoch in der Lage sich selbst auszubalancieren. Jedoch funktionierte es etwas sanfter, wenn die Variable behalten wird. 
 
