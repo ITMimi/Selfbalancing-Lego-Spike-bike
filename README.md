@@ -55,7 +55,7 @@ Für die Programmierung des Motorrads haben wir den Textblockmodus der Spike- bz
 __*Start des Prgramms*__
 <br />
 
-     1. Wenn Programm startet
+     1. wenn Programm startet
      2. Motor B gehe auf kürzestem Wege auf Position 0
      3. warte 1 Sekunden
 
@@ -156,7 +156,38 @@ und den Steuerungscode teilen.
 Es ist zu beachten, dass das Programm im "streaming mode" gestartet werden muss, wenn man eine Steuerung nutzt.
 'Bild einfügen'
 
+     1. wenn das Programm startet
+     2. B auf kürzestem Wege auf 0 bringen
+     3. warte 1 Sekunde
 
+blabla
+
+     4. setze Geschwindigkeit auf -100
+
+blabla
+
+     5. Antriebsmotoren Anschluss E+F zuweisen
+
+blabla
+
+     6. wiederhole fortlaufend
+     7. Motorpaar nach geradeaus: 0 mit Geschwindigkeit & Geschwindigkeit starten
+     8. B relative Position Controller links Joystick X-Achse mit einer Geschwindigkeit von 80% einnehmen
+
+blabla
+
+     9. Controller wenn R2 gedrückt wird 
+     10. setze Geschwindigkeit auf Geschwindigkeit + 10
+     11. Controller wenn L2 gedrückt wird
+     12. setze Geschwindigkeit auf Geschwindigkeit - 10
+
+blabla
+
+     13. Controller wenn Kreis gedrückt wird
+     14. Soundeffekt Kick abspielen
+     15. schalte alle ab
+
+blabla
 
 # Zusammenfassung
 
