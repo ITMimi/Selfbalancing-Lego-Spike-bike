@@ -91,7 +91,7 @@ In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benöti
      16. setze Kd auf 18
      17. setze Kh auf 0.26
 
-Hier werden die verschiedenen Parameter, mit denen die Variablen in der Balancing-Schleife (s.Z. 21) gewichtet werden, initialisiert. Wir haben die besten Ergebnisse mit den hier angegebenen Werten erzielt. 
+Hier werden die verschiedenen Parameter, mit denen die Variablen in der Balancing-Schleife (s.Z. 27) gewichtet werden, initialisiert. Wir haben die besten Ergebnisse mit den hier angegebenen Werten erzielt. 
 
 __*Antrieb*__
 
