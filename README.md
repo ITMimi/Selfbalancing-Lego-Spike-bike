@@ -65,7 +65,7 @@ __*Initialisierung von Variablen und Parametern*__
 
      4. setze Gierwinkel auf 0
 
-An dieser Stelle wird der Gierwinkel des Gyroskops mit dem Wert 0 initialisiert. In den späteren Berechnungen wird die Abweichung der Ausrichtung ("Heading") während der Fahrt von der Ausrichtung zum Fahrtbeginn verwendet (s.Z. 26), um eine möglichst gerade Fahrt zu ermöglichen. Dazu ist es notwendig, dass der Zielwert der Ausrichtung ("Heading Target") der Ausrichtung zum Beginn entspricht. Wir haben uns dazu entschieden das "Heading Target" auf 0 (s.Z. 6) zu setzen und müssen daher den Gierwinkel zu Beginn dementsprechend initialisieren. Eine Alternative wäre es das "Heading Target" auf den Anfangswert des Gierwinkels zu setzen.
+An dieser Stelle wird der Gierwinkel des Gyroskops mit dem Wert 0 initialisiert. In den späteren Berechnungen wird die Abweichung der Ausrichtung ("Heading") während der Fahrt von der Ausrichtung zum Fahrtbeginn verwendet (siehe Zeile 26), um eine möglichst gerade Fahrt zu ermöglichen. Dazu ist es notwendig, dass der Zielwert der Ausrichtung ("Heading Target") der Ausrichtung zum Beginn entspricht. Wir haben uns dazu entschieden das "Heading Target" auf 0 (siehe Zeile 6) zu setzen und müssen daher den Gierwinkel zu Beginn dementsprechend initialisieren. Eine Alternative wäre es das "Heading Target" auf den Anfangswert des Gierwinkels zu setzen.
 
      Alt.: setze Heading Target auf Gierwinkel
 
@@ -91,7 +91,7 @@ In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benöti
      16. setze Kd auf 18
      17. setze Kh auf 0.26
 
-Hier werden die verschiedenen Parameter, mit denen die Variablen in der Balancing-Schleife (s.Z. 27) gewichtet werden, initialisiert. Wir haben die besten Ergebnisse mit den hier angegebenen Werten erzielt. 
+Hier werden die verschiedenen Parameter, mit denen die Variablen in der Balancing-Schleife (siehe Zeile 27) gewichtet werden, initialisiert. Wir haben die besten Ergebnisse mit den hier angegebenen Werten erzielt. 
 
 __*Antrieb*__
 
