@@ -55,17 +55,17 @@ Für die Programmierung des Motorrads haben wir den Textblockmodus der Spike- bz
 __*Start des Prgramms*__
 <br />
 
-     _1. Wenn Programm startet_
-     _2. Motor B gehe auf kürzestem Wege auf Position 0_
-     _3. warte 1 Sekunden_
+     1. Wenn Programm startet
+     2. Motor B gehe auf kürzestem Wege auf Position 0
+     3. warte 1 Sekunden
 
  Nach dem Start des Programms wird als erstes das Vorderrad nach vorne ausgerichtet und so in die Startposition (Position 0) gebracht. Danach wartet das Programm für eine Sekunde und fährt dann fort.  
 
-_4. setze Gierwinkel auf 0_
+     4. setze Gierwinkel auf 0
 
 An dieser Stelle wird der Gierwinkel des Gyroskops mit dem Wert 0 initialisiert. In den späteren Berechnungen wird die Abweichung der Ausrichtung ("Heading") während der Fahrt von der Ausrichtung zum Fahrtbeginn verwendet, um eine möglichst gerade Fahrt zu ermöglichen. Dazu ist es notwendig, dass der Zielwert der Ausrichtung ("Heading Target") der Ausrichtung zum Beginn entspricht. Wir haben uns dazu entschieden das "Heading Target" auf 0 zu setzen und müssen daher den Gierwinkel zu Beginn dementsprechend initialisieren. Eine Alternative wäre es das "Heading Target" auf den Anfangswert des Gierwinkels zu setzen.
 
-     setze Heading Target auf Gierwinkel
+     Alt.: setze Heading Target auf Gierwinkel
 
 Für den Roll-Winkel gilt genau gegenteiliges. Hier ist nicht die Startposition relevant sondern die absolute Position, welche möglichst 0 sein soll. Daher ist es wichtig, dass in den Lenkbewegungen etwaige Abweichungen durch die Startposition mit berücksichtigt werden.    
 
