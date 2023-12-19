@@ -91,7 +91,7 @@ In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benöti
      16. setze Kd auf 18
      17. setze Kh auf 0.26
 
-Hier werden die verschiedenen Parameter, mit denen die Variablen in der Balancing-Schleife (s.Z. 21) gewichtet werden, initialisiert. Wir haben die besten Ergebnisse mit den hier angegebenen Werten erzielt. In der Balancing-Schleife gehen wir noch einmal genauer auf die Werte ein.  
+Hier werden die verschiedenen Parameter, mit denen die Variablen in der Balancing-Schleife (s.Z. 21) gewichtet werden, initialisiert. Wir haben die besten Ergebnisse mit den hier angegebenen Werten erzielt. 
 
 __*Antrieb*__
 
@@ -113,21 +113,21 @@ Zuerst wird der "Error"-Wert, also die Abweichung des Roll-Winkels zum Zielwert 
 
      23. setze Integral auf Integral + Error * 0.25
 
-Das Integral bildet die Tendenz ab, in welche das Motorrad häufiger kippt. Der Wert ergibt sich durch die Addition des vorherigen Werts mit dem Error-Wert, welcher mit dem Faktor 0.25 gewichtet wird. Da der Error Wert je nach Kipprichtung positiv oder negativ ist, gleicht sich das Integral aus und sollte sich im Optimalfall um 0 herum bewegen. Kippt das Motorrad jedoch häufiger in eine Richtung wird der Wert dementsprechen größer oder kleiner (negativ) und sorgt so dafür, dass die Ausgleichsbewegungen in die eine Richtung verstärkt und in die andere Richtung abgeschwächt werden. 
+Das "Integral" bildet die Tendenz ab, in welche das Motorrad häufiger kippt. Der Wert ergibt sich durch die Addition des vorherigen Werts mit dem "Error"-Wert, welcher mit dem Faktor 0.25 gewichtet wird. Da der "Error" Wert je nach Kipprichtung positiv oder negativ ist, gleicht sich das "Integral" aus und sollte sich im Optimalfall um 0 herum bewegen. Kippt das Motorrad jedoch häufiger in eine Richtung wird der Wert dementsprechen größer oder kleiner (negativ) und sorgt so dafür, dass die Ausgleichsbewegungen in die eine Richtung verstärkt und in die andere Richtung abgeschwächt werden. 
 
      24. setze Derrivate auf Error - previous error
      25. setze previous error auf Error
 
-__Neu formulieren, nur damit ich mir den grundsätzlichen Sinn merke__ In der Variable "Derrivate" wird der vorherige Fehler berücksichtigt. Wenn das Motorrad durch die Vorherige Ausgleichsbewegung zu stark in die andere Richtung kippt wird auch die darauf folgende Ausgleichsbewegung stärker um das ganze so auszugleichem. Im Optimalfall ist die Differenz zwischen aktuellem und vorherigen Fehler möglichst klein, da dies bedeutet, dass die Ausgleichsbewegungen sehr sanft sind. 
+In der Variable "Derrivate" wird die Differenz zwischen aktuellem und vorherigem Fehler berechnet. Ist der Drehimpuls des Motorrads sehr hoch, d.h. das Motorrad kippt sehr schnell in eine Richtung, wird der Wert größer, bzw. ins negative kleiner. Die Ausgleichsbewegungen werden dementsprechend schneller durchgeführt. Im Optimalfall nähert sich der Wert langsam der 0, da dies bedeutet, dass das Motorrad sehr stabil aufrecht fährt und nur sanfte Lenkbewegungen notwendig sind.
 
      26. setze Heading auf Heading Target - Gier-winkel
 
-__Neu formulieren, nur damit ich mir den grundsätzlichen Sinn merke__ Die Variable Heading soll dafür sorgen, dass das Motorrad möglichst auf einer geraden  Linie fährt und berücksichtigt daher noch den Gier-Winkel, also der Winkel, welcher sich verändert, wenn sich das Motorrad nach links oder rechts ausrichtet. 
+Die Variable Heading berücksichtigt die Ausrichtung des Motorrads und soll dafür sorgen, dass das Motorrad möglichst auf einer geraden Linie fährt. Dazu wird die Abweichung der aktuellen Ausrichtung von der Ausrichter zum Fahrtbeginn berechnet. 
       
      27. setze Result auf (Error * Kp) + (Integral * Ki) + (Derrivate * Kd)+ (Heading * Kh)    
      28. Motor B starte Motor mit Result * Steerpower % Leistung
 
-In der Zeile 27 werden diese Variablen dann mit den vorher festgelegten Parametern gewichtet und addiert. Deutlich wird, dass vor allem die Variable "Derrvivate" und "Error" dabei eine große Rolle spielen. Die Stabilität des Motorrads wird vom Integral und dem Heading kaum beeinflusst. Wir haben zum Test die Variable Integral rausgenommen und das Motorrad war dennoch in der Lage sich selbst auszubalancieren. Jedoch funktionierte es etwas sanfter, wenn die Variable behalten wird. 
+In der Zeile 27 werden diese Variablen dann mit den vorher festgelegten Parametern gewichtet und addiert. Deutlich wird, dass vor allem die Variable "Derrvivate" und "Error" dabei eine große Rolle spielen. Die Stabilität des Motorrads wird vom Integral und dem Heading kaum beeinflusst. Auch ohne die Variable "Integral" war das Motorrad in der Lage sich selbs auszubalancieren. Die besten Ergebnisse erzielten wir jedoch, wenn alle Variablen mit einbezogen wurden. 
 
 Am Ende wird der Motor, welcher für die Lenkung genutzt wird und bei uns am Anschluss B angeschlossen wurde mit der entsprechenden Leistung gestartet. Die Lenkrichtung wird dabei durch das Vorzeichen des Wertes "Result" bestimmt.
 
