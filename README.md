@@ -141,7 +141,7 @@ Dieser Teil des Codes wird nur erreicht, wenn die Schleife beendet wurde, also d
 
 ## Unterschiede Spike-App und Mindstorms-App 
 
-Der oben beschriebene Code funktioniert sowohl in der Spike-App als auch in der Mindstorms-App. Lediglich die Geschwindigkeit des Antriebs wurde von 85% auf 100% erhöht.   
+Der oben beschriebene Code funktioniert sowohl in der Spike-App als auch in der Mindstorms-App. Lediglich die Antriebsgeschwindigkeit wurde von 85% auf 100% erhöht.   
 
 # Controller-Steuerung
 
