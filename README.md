@@ -127,7 +127,7 @@ Die Variable Heading berücksichtigt die Ausrichtung des Motorrads und soll daf�
      27. setze Result auf (Error * Kp) + (Integral * Ki) + (Derrivate * Kd)+ (Heading * Kh)    
      28. Motor B starte Motor mit Result * Steerpower % Leistung
 
-In der Zeile 27 werden diese Variablen dann mit den vorher festgelegten Parametern gewichtet und addiert. Deutlich wird, dass vor allem die Variable "Derrvivate" und "Error" dabei eine große Rolle spielen. Die Stabilität des Motorrads wird vom Integral und dem Heading kaum beeinflusst. Auch ohne die Variable "Integral" war das Motorrad in der Lage sich selbs auszubalancieren. Die besten Ergebnisse erzielten wir jedoch, wenn alle Variablen mit einbezogen wurden. 
+In der Zeile 27 werden diese Variablen dann mit den vorher festgelegten Parametern gewichtet und addiert. Deutlich wird, dass vor allem die Variable "Derrvivate" und "Error" dabei eine große Rolle spielen. Die Stabilität des Motorrads wird vom Integral und dem Heading kaum beeinflusst. Auch ohne die Variable "Integral" war das Motorrad in der Lage sich selbst auszubalancieren. Die besten Ergebnisse erzielten wir jedoch, wenn alle Variablen mit einbezogen wurden. 
 
 Am Ende wird der Motor, welcher für die Lenkung genutzt wird und bei uns am Anschluss B angeschlossen wurde mit der entsprechenden Leistung gestartet. Die Lenkrichtung wird dabei durch das Vorzeichen des Wertes "Result" bestimmt.
 
