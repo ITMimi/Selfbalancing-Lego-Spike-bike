@@ -71,7 +71,7 @@ Hier CAD einfügen.
 
 Für die Programmierung des Motorrads haben wir den Textblockmodus der Spike- bzw. Mindstorms-App verwendet. Im Folgenden gehen wir durch die verschiedenen Abschnitte des Codes und erklären diese. Die einzelnen Textbausteine sind entsprechend durchnummeriert.  
 
-__*Start des Prgramms*__
+#### Start des Prgramms
 <br />
 
      1. wenn Programm startet
@@ -80,7 +80,7 @@ __*Start des Prgramms*__
 
  Nach dem Start des Programms wird als erstes das Vorderrad nach vorne ausgerichtet und so in die Startposition (Position 0) gebracht. Danach wartet das Programm für eine Sekunde und fährt dann fort.
 
-__*Initialisierung von Variablen und Parametern*__ 
+### Initialisierung von Variablen und Parametern 
 
      4. setze Gierwinkel auf 0
 
@@ -112,7 +112,7 @@ In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benöti
 
 Hier werden die verschiedenen Parameter, mit denen die Variablen in der Balancing-Schleife (siehe Zeile 27) gewichtet werden, initialisiert. Wir haben die besten Ergebnisse mit den hier angegebenen Werten erzielt. 
 
-__*Antrieb*__
+### Antrieb
 
      18. Motorpaar stelle Geschwindigkeit auf -85% ein
      19. Motorpaar weise Bewegungsmotoren Anschlüsse E+F zu
@@ -120,7 +120,7 @@ __*Antrieb*__
 
 Dieser Codeabschnitt verbindet die beiden (Antriebs-)Motoren, welche an den Anschlüssen E und F befestigt sind, zu einem Motorpaar. Die Gewschwindigkeit wird auf -85% gesetzt. Dabei ist es relevant zu beachten, mit welcher Ausrichtung die Motoren an dem Hinterrad befestigt sind. In unserem Setup mussten sich die Motoren nach "hinten" drehen, um das Motorrad nach vorne anzutreiben. Daher das Minus vor dem Geschwindigkeitswert. Wenn die beiden Motoren getauscht und auf die jeweils andere Seite des Rads montiert werden, muss auch das Vorzeichen geändert werden. 
 
-__*Schleife*__
+### Schleife
 
      21. wiederhole bis Betrag von Roll-Winkel > 70
 
@@ -150,7 +150,7 @@ In der Zeile 27 werden diese Variablen dann mit den vorher festgelegten Paramete
 
 Am Ende wird der Motor, welcher für die Lenkung genutzt wird und bei uns am Anschluss B angeschlossen wurde mit der entsprechenden Leistung gestartet. Die Lenkrichtung wird dabei durch das Vorzeichen des Wertes "Result" bestimmt.
 
-__*Roboter Umgekippt*__
+### Roboter Umgekippt
 
      29. Motorpaar halte an
      30. Motor B stoppe Motor
@@ -177,7 +177,7 @@ und den Steuerungscode teilen. Genutzt wurde ein Playstation 4 Controller. Es is
 |----------|-----------|
 | ![Streaming_Download-Modus](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/c1b60ce2-d6b6-49c4-913d-a3b10afbdc25) | ![Streaming_Modus](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/59423d84-d9b5-4b0d-aa2f-572ab69415d5) |
 
-__*Start des Prgramms*__
+### Start des Prgramms
 
      1. wenn das Programm startet
      2. B auf kürzestem Wege auf 0 bringen
@@ -193,7 +193,7 @@ Die Anfangsgeschwindigkeit wird auf (-)100 gesetzt. Auch hier muss die Ausrichtu
 
 Dem Antriebsmotorpaar werden die Anschlüsse E und F zugewiesen.
 
-__*Schleife*__
+### Schleife
 
      6. wiederhole fortlaufend
      7. Motorpaar nach geradeaus: 0 mit Geschwindigkeit % Geschwindigkeit starten
@@ -201,7 +201,7 @@ __*Schleife*__
 
 In einer durchgängig offenen Schleife wird immer wieder das Antriebsmotorpaar mit der entsprechenden Geschwindigkeit gestartet. Da die Geschwindigkeit durch das Drücken von Knöpfen auf dem Controller verändert werden kann, muss die Geschwindigkeit in der Schleife immer wieder neu abgefragt werden. Außerdem wird das Vorderrad durch den Motor B in die Position gedreht, welche der X-Achse des linken Joysticks entspricht. Dadurch ist es möglich das Motorrad mit dem Joystick zu lenken (siehe Video). 
 
-__*Geschwindigkeits-Steuerung*__
+### Geschwindigkeits-Steuerung
 
      9. Controller wenn R2 gedrückt wird 
      10. setze Geschwindigkeit auf Geschwindigkeit + 10
@@ -237,7 +237,7 @@ Wir haben zuerst eine andere, weniger kompakte, Bauweise für das Motorrad gewä
 
 Auch bei der Programmierung haben wir uns an dem [Programmier-Tutorial](https://www.youtube.com/watch?v=TupLmKkHMBU&t=0s) von der [Creator Academy Australia](https://www.youtube.com/watch?v=MCVW2Uqanlw) orientiert. Dabei sind wir auf verschiedene Probleme gestoßen. Im ersten Schritt haben wir den Code übernommen und geschaut, ob das Motorrad direkt in der Lage ist sich selbst auszubalancieren. Das war nicht der Fall. Das Motorrad ist in fast allen Testläufen nach wenigen Zentimetern umgekippt. Es gab einzelne Testläufe in denen das Motorrad in der Lage war wenige Meter zu fahren, was jedoch lediglich daran lag, dass das Motorrad in jenen Testläufen sehr lange aufrecht blieb und daher keine Lenkbewegungen notwendig waren. Es wurde recht deutlich, dass die Lenkbewgungen zu stark und zu ruckartig ausgeführt wurden. Daher haben wir versucht die Parameter (Kh, Kd, etc.) systematisch zu variieren und geschaut, bei welchen Veränderung die Stabilität des Motorrads erhöht wurde. Wir versuchten dabei die Parameter so anzupassen, dass die Lenkbewegungen sanfter durchgeführt werden. Wir konnten beobachten, dass die zurückgelegte Strecke größer wurde, wenn wir den Parameter "Kp", welcher den Fehler gewichtet, kleiner gemacht haben. Nach einigen Versuchen stellten wir fest, dass eine Halbierung des "Kp"-Wertes von 2 auf 1 unser Problem für die beste Stabilität sorgte. Die anderen Parameter beließen wir bei den Werten aus dem [Video](https://www.youtube.com/watch?v=TupLmKkHMBU&t=0s), wir stellten jedoch fest, dass das Motorrad auch ohen die Variable "Integral" in der Lage war zu fahren. 
 
-Im Laufe des Tests stellten wir außerdem fest, dass die Variablen nach Beendigung des Programms nicht zurückgesetzt wurden, was zu Fehlern in der Berechnung der Lenkbewegungen führte. Wir lösten das Problem, wie bereits in der [Code-Erklärung](#Code-Erklärung) beschrieben, in dem wir  
+Im Laufe des Tests stellten wir außerdem fest, dass die Variablen nach Beendigung des Programms nicht zurückgesetzt wurden, was zu Fehlern in der Berechnung der Lenkbewegungen führte. Wir lösten das Problem, wie bereits in der [Code-Erklärung](#Initialisierung-von-Variablen-und-Parametern) beschrieben, in dem wir  
 
 
 Dabei haben wir jedoch sehr schnell festgestellt, dass die in dem Video gewählten Parameter für unser Modell nicht funktionieren. Daher haben wir begonnen systematisch die verschiedenen Parameter zu variieren und die Veränderungen in der zurückgelegten Distanz zu messen. Dabei machten wir kaum messbare Fortschritte. Auffällig war, dass das Motorrad auch bei kleinen Kippwinkeln sehr stark gegengelenkt hat und dadurch noch schneller umgekippt ist. Wir haben daher den Parameter (Kp), welcher den Fehler-Wert (Error) gewichtet von 2 auf 1 halbiert. Danach war das Motorrad in der Lage sich selbst auszubalancieren. Die anderen Parameter spielen dabei zum Teil eine untergeordnete Rolle. 
