@@ -63,7 +63,7 @@ __*Start des Prgramms*__
 
      4. setze Gierwinkel auf 0
 
-An dieser Stelle wird der Gierwinkel des Gyroskops mit dem Wert 0 initialisiert. In den späteren Berechnungen wird die Abweichung der Ausrichtung ("Heading") während der Fahrt von der Ausrichtung zum Fahrtbeginn verwendet, um eine möglichst gerade Fahrt zu ermöglichen. Dazu ist es notwendig, dass der Zielwert der Ausrichtung ("Heading Target") der Ausrichtung zum Beginn entspricht. Wir haben uns dazu entschieden das "Heading Target" auf 0 zu setzen und müssen daher den Gierwinkel zu Beginn dementsprechend initialisieren. Eine Alternative wäre es das "Heading Target" auf den Anfangswert des Gierwinkels zu setzen.
+An dieser Stelle wird der Gierwinkel des Gyroskops mit dem Wert 0 initialisiert. In den späteren Berechnungen wird die Abweichung der Ausrichtung ("Heading") während der Fahrt von der Ausrichtung zum Fahrtbeginn verwendet (s. Z. 26), um eine möglichst gerade Fahrt zu ermöglichen. Dazu ist es notwendig, dass der Zielwert der Ausrichtung ("Heading Target") der Ausrichtung zum Beginn entspricht. Wir haben uns dazu entschieden das "Heading Target" auf 0 (s. Z. 8) zu setzen und müssen daher den Gierwinkel zu Beginn dementsprechend initialisieren. Eine Alternative wäre es das "Heading Target" auf den Anfangswert des Gierwinkels zu setzen.
 
      Alt.: setze Heading Target auf Gierwinkel
 
