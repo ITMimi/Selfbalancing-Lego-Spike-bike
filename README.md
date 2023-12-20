@@ -11,23 +11,19 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 |Inhalt|
 |------|
 | [1. Bauanleitung](#Bauanleitung)| 
-|&nbsp;&nbsp;&nbsp;[1.1 Benötigte Bauteile](#Benötigte-Bauteile)<br/>
-&nbsp;&nbsp;&nbsp;[1.2 Aufbauanleitung](#Aufbauanleitung)<br/>
+|&nbsp;&nbsp;&nbsp;[1.1 Benötigte Bauteile](#Benötigte-Bauteile)
+&nbsp;&nbsp;&nbsp;[1.2 Aufbauanleitung](#Aufbauanleitung)
 &nbsp;&nbsp;&nbsp;[1.3 CAD-Modell](#CAD-Modell)|
-
-
-[2. Code](#Code)<br/>
-&nbsp;&nbsp;&nbsp;[2.1 Downloads](#Downloads)<br/>
-&nbsp;&nbsp;&nbsp;[2.2 Code Erklärung](#Code-Erklärung)<br/>
-&nbsp;&nbsp;&nbsp;[2.3 Unterschiede Spike-App und Mindstorms-App](#Unterschiede-Spike-App-und-Mindstorms-App)
-
-[3. Controller-Steuerung](#Controller-Steuerung)<br/>
-&nbsp;&nbsp;&nbsp;[3.1 Downloads](#Downloads-1)<br/>
-&nbsp;&nbsp;&nbsp;[3.2 Code Erklärung](#Code-Erklärung-1)<br/>
-
-[4. Zusammenfassung](#Zusammenfassung)<br/>
-&nbsp;&nbsp;&nbsp;[4.1 Ergebnis](#Ergebnis)<br/>
-&nbsp;&nbsp;&nbsp;[4.2 Probleme in der Entwicklung](#Probleme-in-der-Entwicklung)<br/>
+|[2. Code](#Code)|
+|&nbsp;&nbsp;&nbsp;[2.1 Downloads](#Downloads)
+&nbsp;&nbsp;&nbsp;[2.2 Code Erklärung](#Code-Erklärung)
+&nbsp;&nbsp;&nbsp;[2.3 Unterschiede Spike-App und Mindstorms-App](#Unterschiede-Spike-App-und-Mindstorms-App)|
+|[3. Controller-Steuerung](#Controller-Steuerung)|
+|&nbsp;&nbsp;&nbsp;[3.1 Downloads](#Downloads-1)
+&nbsp;&nbsp;&nbsp;[3.2 Code Erklärung](#Code-Erklärung-1)|
+|[4. Zusammenfassung](#Zusammenfassung)|
+|&nbsp;&nbsp;&nbsp;[4.1 Ergebnis](#Ergebnis)
+&nbsp;&nbsp;&nbsp;[4.2 Probleme in der Entwicklung](#Probleme-in-der-Entwicklung)|
 
 # Bauanleitung
 
