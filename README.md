@@ -15,7 +15,6 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 &nbsp;&nbsp;&nbsp;[1.2 Aufbauanleitung](#Aufbauanleitung)
 &nbsp;&nbsp;&nbsp;[1.3 CAD-Modell](#CAD-Modell)|
 |[2. Code](#Code)|
-
 |&nbsp;&nbsp;&nbsp;[2.1 Downloads](#Downloads)
 &nbsp;&nbsp;&nbsp;[2.2 Code Erklärung](#Code-Erklärung)
 &nbsp;&nbsp;&nbsp;[2.3 Unterschiede Spike-App und Mindstorms-App](#Unterschiede-Spike-App-und-Mindstorms-App)|
