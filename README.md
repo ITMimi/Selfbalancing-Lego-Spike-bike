@@ -56,8 +56,6 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 
 ## Aufbauanleitung
 
-![Aufbauanleitung GIF (2)](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/431b8a59-9ab3-4e7b-82fe-d78cf2803aae)
-
 [Bauanleitung als pdf](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/files/13732768/Bauanleitung.Motorrad.pdf)
 
 [Aufbauanleitung](https://www.youtube.com/watch?v=IiCZoNBiXc0) von [Creator Academy Australia](https://www.youtube.com/watch?v=MCVW2Uqanlw).
