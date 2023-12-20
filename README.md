@@ -80,7 +80,7 @@ Download [Bauanleitung](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/
 
 Für die Programmierung des Motorrads haben wir den Textblockmodus der Spike- bzw. Mindstorms-App verwendet. Im Folgenden gehen wir durch die verschiedenen Abschnitte des Codes und erklären diese. Die einzelnen Textbausteine sind entsprechend durchnummeriert.  
 
-#### Start des Prgramms
+#### Start des Programms
 
      1. wenn Programm startet
      2. Motor B gehe auf kürzestem Wege auf Position 0
