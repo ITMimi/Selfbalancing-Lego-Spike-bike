@@ -4,6 +4,8 @@ Bei dem im folgenden vorgestellte Projekt handelt es sich um einen Prototyp eine
 
 Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von dem YouTube Kanal [Creator Academy Australia](https://www.youtube.com/watch?v=MCVW2Uqanlw).
 
+![Motorrad gerendert](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/60a006b5-6999-48e9-98ae-e05d470d66ad)
+
 # Inhaltsverzeichnis
 
 [1. Bauanleitung](#Bauanleitung)
@@ -22,6 +24,8 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 &nbsp;&nbsp;&nbsp;[4.2 Probleme in der Entwicklung](#Probleme-in-der-Entwicklung)<br/>
 
 # Bauanleitung
+
+## Benötigte Bauteile
 
 | Bauteil | Anzahl |                
 |---------|--------|
@@ -48,10 +52,11 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 | 2x2 Plättchen (Blau)  | 4 |
 | Plättchen (Schwarz) | 2 |
 
-
 ![alt Text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Images/Bauanleitung%20Roboter%20Bild.jpg)
 
-Hier CAD einfügen. 
+## Aufbauanleitung
+
+
 
 ![Lego Spike Bike](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/38a3e8bf-6ff8-4f24-8b36-1140f6adbaec)
 
