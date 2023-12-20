@@ -214,7 +214,7 @@ An dieser Stelle wird die Geschwindigkeitskontrolle implementiert. Wenn der Benu
 
 Durch das Betätigen der Kreis-Taste auf dem Controller werden alle Motoren ausgeschaltet. 
 
-https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/de99e97c-8d3f-40ac-ad49-ef8af6bc54e5
+https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/1c764151-db78-48aa-8c01-96dcab006854
 
 # Zusammenfassung
 
