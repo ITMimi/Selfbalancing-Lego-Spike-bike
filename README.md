@@ -10,9 +10,10 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 
 |Inhalt|      |
 |------|------|
-| [1. Bauanleitung](#Bauanleitung)| [1.1 Benötigte Bauteile](#Benötigte-Bauteile)<br/>
+| [1. Bauanleitung](#Bauanleitung)|| 
+|[1.1 Benötigte Bauteile](#Benötigte-Bauteile)<br/>
 [1.2 Aufbauanleitung](#Aufbauanleitung)<br/>
-[1.3 CAD-Modell](#CAD-Modell)|
+[1.3 CAD-Modell](#CAD-Modell)||
 
 
 [2. Code](#Code)<br/>
