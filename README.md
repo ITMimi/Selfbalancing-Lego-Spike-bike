@@ -34,10 +34,10 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 | Lego Spike Hub (53444)   | 1      |  
 | Großer Motor (54675)     | 1      |
 | Kleiner Motor (54696) | 2      |
-| Großes Rad      | 2      |
+| Großes Rad (49295)   | 2      |
 | 4x2 Baustein (Bunt) (39789)| 8     |
 |16x2 Baustein Flach (Lila) (4282)| 2  |
-| 8x2 Baustein Flach (Schwarz)   | 2  |
+| 8x2 Baustein Flach (Schwarz) (3738)  | 2  |
 | 2x2 Baustein abgerundet (Schwarz) (44126)| 2|
 | 3x1 Verbindungsschiene (Gelb) (32523)| 4 |
 | 7x1 Verbindungsschiene (Blau) (32524)| 3 |
