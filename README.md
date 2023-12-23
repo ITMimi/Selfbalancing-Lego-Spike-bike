@@ -16,8 +16,8 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 &nbsp;&nbsp;&nbsp;[1.3 CAD-Modell](#CAD-Modell)|
 |[2. Code](#Code)|
 |&nbsp;&nbsp;&nbsp;[2.1 Downloads](#Downloads)
-&nbsp;&nbsp;&nbsp;[2.2 Code Erklärung](#Code-Erklärung)
-&nbsp;&nbsp;&nbsp;[2.3 Unterschiede Spike-App und Mindstorms-App](#Unterschiede-Spike-App-und-Mindstorms-App)|
+&nbsp;&nbsp;&nbsp;[2.2 Unterschiede Spike-App und Mindstorms-App](#Unterschiede-Spike-App-und-Mindstorms-App)
+&nbsp;&nbsp;&nbsp;[2.3 Code Erklärung](#Code-Erklärung)|
 |[3. Controller-Steuerung](#Controller-Steuerung)|
 |&nbsp;&nbsp;&nbsp;[3.1 Downloads](#Downloads-1)
 &nbsp;&nbsp;&nbsp;[3.2 Code Erklärung](#Code-Erklärung-1)|
@@ -77,6 +77,10 @@ Download: [.dae](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/ma
 [Code](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Code/Spike%20App/Selfbalancing_Bike_SpikeApp_final.llsp3) für Spike App
 
 [Code](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Code/Mindstorms%20App/Selfbalancing_Bike_MindstormsApp_final.lms) für Mindstorms App
+
+## Unterschiede Spike-App und Mindstorms-App 
+
+Die erste Version des selbstausbalancierenden Motorrads haben wir in der Spike App erstellt. Um die Möglichkeit zu haben eine Controller-Steuerung zu implementieren sind wir dann auf die Mindstorms App umgestiegen und mussten dort ein paar Parameter anpassen (z.B die Geschwindigkeitsleistung). Daher sind in beide Code-Versionen in den entsprechenden Ordnern zu finden. Der folgende Code funktioniert sowohl in der Spike-App als auch in der Mindstorms-App. Lediglich die Antriebsgeschwindigkeit wurde von 85% auf 100% erhöht.   
 
 ## Code Erklärung
 
@@ -167,10 +171,6 @@ Am Ende wird der Motor, welcher für die Lenkung genutzt wird und bei uns am Ans
      31. Motor B gehe auf kürzestem Wege auf Position 0
 
 Dieser Teil des Codes wird nur erreicht, wenn die Schleife beendet wurde, also das Motorrad umgekippt ist. Das Antriebsmotorpaar wird dann gestoppt, und das Vorderrad wieder in die Anfangsposition gedreht.  
-
-## Unterschiede Spike-App und Mindstorms-App 
-
-Der oben beschriebene Code funktioniert sowohl in der Spike-App als auch in der Mindstorms-App. Lediglich die Antriebsgeschwindigkeit wurde von 85% auf 100% erhöht.   
 
 # Controller-Steuerung
 
