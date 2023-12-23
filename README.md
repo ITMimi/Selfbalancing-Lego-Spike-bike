@@ -180,7 +180,7 @@ Der oben beschriebene Code funktioniert sowohl in der Spike-App als auch in der 
 
 ## Code Erklärung 
 
-Leider hat die Steuerungsumsetzung schlussendlich nicht funktioniert. Auf die Probleme gehen wir in der Zusammenfassung noch näher ein. Dennoch wollen wir unseren Versuchscode nicht vorenthalten
+Leider hat die Steuerungsumsetzung schlussendlich nicht funktioniert. Auf die Probleme gehen wir in der Zusammenfassung näher ein. Dennoch wollen wir unseren Versuchscode nicht vorenthalten
 und den Steuerungscode teilen. Genutzt wurde ein Playstation 4 Controller. Es ist zu beachten, dass das Programm im "streaming mode" gestartet werden muss, wenn man eine Steuerung nutzt. Der Download-Modus ist der Standardmodus zum Ausführen von Programmen. Das Programm wird dabei zunächst auf dem Hub gespeichert und dann ausgeführt. Im Streaming-Modus werden die Programme in Echtzeit ausgeführt. Dadurch können noch Änderungen an den Programmparametern vorgenommen werden, während das Programm läuft. So können die Controller-Inputs registriert und berücksichtigt werden. 
 
 | Download | Streaming |
