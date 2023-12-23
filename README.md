@@ -67,6 +67,7 @@ Download [Bauanleitung](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/
 
 ![Aufbauanleitung GIF (2)](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/ac4b700d-944a-4121-8323-258da6c6a848)
 
+Downlaad: 
 
 
 # Code
