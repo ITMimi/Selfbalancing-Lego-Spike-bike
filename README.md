@@ -48,7 +48,7 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 | Kreuz - Verbindungsstück (Schwarz) (39793)| 1 |
 | Verbindungsstange mittel (Gelb) (44294)| 1 |
 | Verbindungsstange kurz (Gelb) (4519)| 3 |
-| Verbindungsstück (Blau) | 4 |
+| Verbindungsstück (Blau) (6558)| 4 |
 | Verbindungsstück (Schwarz) (2780)| 50 |
 | Verbindungsfixierung (Grau) (6590)| 2 |
 | Kabelfixierung (Bunt)  (49283)| 3  |
