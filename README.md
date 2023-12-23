@@ -31,28 +31,29 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 
 | Bauteil | Anzahl |                
 |---------|--------|
-| Lego Spike Hub   | 1      |  
-| Großer Motor     | 1      |
-| Kleiner Motor    | 2      |
+| Lego Spike Hub (53444)   | 1      |  
+| Großer Motor (54675)     | 1      |
+| Kleiner Motor (54696) | 2      |
 | Großes Rad      | 2      |
-| 4x2 Baustein (Bunt) | 8     |
-|16x2 Baustein Flach (Lila) | 2  |
+| 4x2 Baustein (Bunt) (39789)| 8     |
+|16x2 Baustein Flach (Lila) (4282)| 2  |
 | 8x2 Baustein Flach (Schwarz)   | 2  |
-| 2x2 Baustein abgerundet (Schwarz) | 2|
-| 3x1 Verbindungsschiene (Gelb) | 4 |
-| 7x1 Verbindungsschiene (Blau) | 3 |
-| 9x1 Verbindungsschiene (Schwarz) | 3 |
-| T - Verbindungsstück (Schwarz) | 2 |
-| Kreuz - Verbindungsstück (Lila) | 4 |
-| Kreuz - Verbindungsstück (Schwarz) | 1 |
-| Verbindungsstange mittel (Gelb) | 1 |
-| Verbindungsstange kurz (Gelb) | 3 |
+| 2x2 Baustein abgerundet (Schwarz) (44126)| 2|
+| 3x1 Verbindungsschiene (Gelb) (32523)| 4 |
+| 7x1 Verbindungsschiene (Blau) (32524)| 3 |
+| 9x1 Verbindungsschiene (Schwarz) (40490)| 3 |
+| gebogenes Panel (Blau) (11954)| 2|
+| T - Verbindungsstück (Schwarz) (60484)| 2 |
+| Kreuz - Verbindungsstück (Lila) (39793)| 4 |
+| Kreuz - Verbindungsstück (Schwarz) (39793)| 1 |
+| Verbindungsstange mittel (Gelb) (44294)| 1 |
+| Verbindungsstange kurz (Gelb) (4519)| 3 |
 | Verbindungsstück (Blau) | 4 |
-| Verbindungsstück (Schwarz) | 50 |
-| Verbindungsfixierung (Grau) | 2 |
-| Kabelfixierung (Bunt)  | 3  |
-| 2x2 Plättchen (Blau)  | 4 |
-| Plättchen (Schwarz) | 2 |
+| Verbindungsstück (Schwarz) (2780)| 50 |
+| Verbindungsfixierung (Grau) (6590)| 2 |
+| Kabelfixierung (Bunt)  (49283)| 3  |
+| 2x2 Plättchen (Blau) (4032) | 4 |
+| Plättchen (Schwarz) (15535)| 2 |
 
 ![alt Text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Images/Bauanleitung%20Roboter%20Bild.jpg)
 
@@ -232,9 +233,7 @@ https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/1c76415
 
 In den beiden Videos ist unser Prototyp des sich selbst ausbalancierenden Motorrads zu sehen. Das Motorrad ist in der Lage längere Strecken zurückzulegen und sich dabei durch Lenkbewegungen zu stabilisieren, welche mithilfe des Gyroskosps berechnet werden. Getestet haben wir den Mechanismus auf Teppichboden (Video 2) und auf dem glatteren Gummibodenbelag (Video 1). Auf beiden Untergründen war das Motorrad in der Lage sich selbst auszubalancieren. Außerdem haben wir eine erste Idee für eine Controller-Steuerung entwickelt. 
 
-|||
-|-|-|
-|https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/547acb4e-3f02-45bf-bd1d-e70390bd240c|
+https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/547acb4e-3f02-45bf-bd1d-e70390bd240c
 
 https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/27c758a2-e49b-49fe-b1d6-4038bd6fde2a
 
