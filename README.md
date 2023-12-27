@@ -67,7 +67,13 @@ Download [Bauanleitung](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/
 
 ![Aufbauanleitung GIF (2)](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/ac4b700d-944a-4121-8323-258da6c6a848)
 
-Download: [.dae](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.dae) [.io](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.io) [.lxfml](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.lxfml) [.pov](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.pov) [.xml](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.xml)
+Download des CAD-Modells:
+Es gibt verschiedene Dateiformate für das CAD Modell des Balancing Bikes. Erstellt wurde das CAD Modell mit der kostenfreiens App: Studio 2.0 von BrickLink. Link zum Download der App https://www.bricklink.com/v3/studio/download.page
+Dabei lässt sich das Modell mit der Datei mit der Endung .io am leichtesten importieren zum Anschauen und Auseinandernehmen. Nach öffnen der App klicken auf den Reiter "File" -> "Open" und dann die Datei auswählen. 
+
+<img width="953" alt="image" src="https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153181616/9e54e68c-6ba1-4490-859f-18de0af0ad80">
+
+[.dae](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.dae) [.io](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.io) [.lxfml](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.lxfml) [.pov](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.pov) [.xml](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.xml)
 
 
 # Code
@@ -80,11 +86,11 @@ Download: [.dae](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/ma
 
 ## Unterschiede Spike-App und Mindstorms-App 
 
-Die erste Version des selbstausbalancierenden Motorrads haben wir in der Spike App erstellt. Um die Möglichkeit zu haben eine Controller-Steuerung zu implementieren sind wir dann auf die Mindstorms App umgestiegen und mussten dort ein paar Parameter anpassen (z.B die Geschwindigkeitsleistung). Daher sind in beide Code-Versionen in den entsprechenden Ordnern zu finden. Der folgende Code funktioniert sowohl in der Spike-App als auch in der Mindstorms-App. Lediglich die Antriebsgeschwindigkeit wurde von 85% auf 100% erhöht.   
+Die erste Version des selbstausbalancierenden Motorrads haben wir in der Spike App erstellt. Um die Möglichkeit zu haben eine Controller-Steuerung zu implementieren sind wir dann auf die Mindstorms App umgestiegen und mussten dort ein paar Parameter anpassen (z.B. die Geschwindigkeitsleistung). Daher sind in beide Code-Versionen in den entsprechenden Ordnern zu finden. Der folgende Code funktioniert sowohl in der Spike-App als auch in der Mindstorms-App. Lediglich die Antriebsgeschwindigkeit wurde von 85% auf 100% in der Mindstorms-App erhöht.   
 
 ## Code Erklärung
 
-Für die Programmierung des Motorrads haben wir den Textblockmodus der Spike- bzw. Mindstorms-App verwendet. Im Folgenden gehen wir durch die verschiedenen Abschnitte des Codes und erklären diese. Die einzelnen Textbausteine sind entsprechend durchnummeriert.  
+Für die Programmierung des Motorrads haben wir den Textblockmodus der Spike- bzw. Mindstorms-App verwendet. Im Folgenden gehen wir durch die verschiedenen Abschnitte des Codes und erklären diese. Die einzelnen Textbausteine sind entsprechend durchnummeriert.  Es empfiehlt sich im Split-Screen-View die Erklärungen neben den Code zu legen.
 
 #### Start des Programms
 
