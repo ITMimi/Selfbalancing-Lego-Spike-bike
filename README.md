@@ -68,8 +68,11 @@ Download [Bauanleitung](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/
 ![Aufbauanleitung GIF (2)](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/ac4b700d-944a-4121-8323-258da6c6a848)
 
 Download des CAD-Modells:
-Es gibt verschiedene Dateiformate für das CAD Modell des Balancing Bikes. Erstellt wurde das CAD Modell mit der kostenfreiens App: Studio 2.0 von BrickLink. Link zum Download der App https://www.bricklink.com/v3/studio/download.page
-Dabei lässt sich das Modell mit der Datei mit der Endung .io am leichtesten importieren zum Anschauen und Auseinandernehmen. Nach öffnen der App klicken auf den Reiter "File" -> "Open" und dann die Datei auswählen. 
+Es gibt verschiedene Dateiformate für das CAD Modell des Balancing Bikes. 
+Erstellt wurde das CAD Modell mit der kostenfreiens App: Studio 2.0 von BrickLink. 
+Link zum Download der App https://www.bricklink.com/v3/studio/download.page
+Dabei lässt sich das Modell mit der Datei mit der Endung .io am leichtesten importieren zum Anschauen und Auseinandernehmen. 
+Nach dem Öffnen der App auf New Project klicken. Dann sollte der Bildschirm aussehen wie auf dem folgenden Bild. Dann auf den Reiter oben Links "File" -> "Open" klicken und dann die heruntergeladene CAD-Datei mit der Endung .io auswählen. 
 
 <img width="953" alt="image" src="https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153181616/9e54e68c-6ba1-4490-859f-18de0af0ad80">
 
