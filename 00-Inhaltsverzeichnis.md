@@ -2,7 +2,7 @@
 
 |Inhalt|
 |------|
-|[1. Einleitung](00-Inhaltsverzeichnis.md)|
+|[1. Einleitung](01-Einleitung.md)|
 |[2. Bauanleitung](#Bauanleitung)| 
 |&nbsp;&nbsp;&nbsp;[2.1 Benötigte Bauteile](#Benötigte-Bauteile)
 &nbsp;&nbsp;&nbsp;[2.2 Aufbauanleitung](#Aufbauanleitung)
