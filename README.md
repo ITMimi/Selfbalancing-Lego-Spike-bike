@@ -272,4 +272,4 @@ Troubleshooting nicht Connecten des Hubs in der Mindstorm App: Es ist anzumerken
 
 [Programmier-Tutorial](https://www.youtube.com/watch?v=TupLmKkHMBU)
 
-[Aufbauanleitung](https://www.youtube.com/watch?v=IiCZoNBiXc0) von [Creator Academy Australia](https://www.youtube.com/watch?v=MCVW2Uqanlw).
+[Aufbauanleitung](https://www.youtube.com/watch?v=IiCZoNBiXc0)
