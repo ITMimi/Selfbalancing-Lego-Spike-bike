@@ -55,7 +55,7 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 | 2x2 Plättchen (Blau) (4032) | 4 |
 | Plättchen (Schwarz) (15535)| 2 |
 
-![alt Text](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Images/Bauanleitung%20Roboter%20Bild.jpg)
+![Bauanleitung Roboter Bild](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/72ea02f9-630d-45fe-be9d-5af9da3b8c80)
 
 ## Aufbauanleitung
 
