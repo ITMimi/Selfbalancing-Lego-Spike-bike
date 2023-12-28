@@ -258,9 +258,9 @@ Im Laufe des Tests stellten wir außerdem fest, dass die Variablen nach Beendigu
 
 ### Controller-Steuerung
 
-Nachdem das Motorrad in der Lage war, sich selbst auszubalancieren, haben wir versucht eine Controller-Steuerung zu implementieren. Dabei sind wir leider auf verschiedene Probleme gestoßen, welche wir aus zeitlichen Gründen nicht mehr lösen konnten. Am entscheidensten war der Unterschied vom Download- zum Streaming-Modus. Während die Balancierung im Download-Modus, mit den oben gewählten Werten, problemlos funktioniert, ist das Motorrad im Streaming-Modus bei gleichem Code nicht mehr in der Lage zu fahren.  
+Nachdem das Motorrad in der Lage war, sich selbst auszubalancieren, haben wir versucht eine Controller-Steuerung zu implementieren. Dabei sind wir leider auf verschiedene Probleme gestoßen, welche wir aus zeitlichen Gründen nicht mehr lösen konnten. Am entscheidensten war der Unterschied vom Download- zum Streaming-Modus. Der Streaming-Modus ist notwendig, um die Controller-Inputs registrieren und verarbeiten zu können. Während die Balancierung im Download-Modus, problemlos funktioniert, ist das Motorrad im Streaming-Modus bei gleichem Code nicht mehr in der Lage zu stabil fahren.  
 
-### Unterschiede Spike- und Mindstorms-App
+### Connection zwischen Hub und Computer
 
 Troubleshooting nicht Connecten des Hubs in der Mindstorm App: Es ist anzumerken, dass es beim Bluetooth-Verbinden des aktualsierten Hubs (grün leuchtender Ring) Schwierigkeiten in der Mindstorms App gab. Daher mussten wir den Hub Downgraden -> Siehe link https://spikelegacy.legoeducation.com/hubdowngrade/#step-1 , um ihn dann in der Mindstorms App zu verbinden und dort erneut zu aktualisieren. Danach funktionierte des Bluetooth-Verbinden in der Spike und Mindstorm App problemlos.
 
