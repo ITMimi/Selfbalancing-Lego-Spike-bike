@@ -24,6 +24,7 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 |[4. Zusammenfassung](#Zusammenfassung)|
 |&nbsp;&nbsp;&nbsp;[4.1 Ergebnis](#Ergebnis)
 &nbsp;&nbsp;&nbsp;[4.2 Probleme in der Entwicklung](#Probleme-in-der-Entwicklung)|
+|[5. Quellen](#Quellen)|
 
 # Bauanleitung
 
