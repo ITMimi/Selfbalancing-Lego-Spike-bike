@@ -75,6 +75,7 @@ Dabei lässt sich das Modell mit der Datei mit der Endung .io am leichtesten imp
 Nach dem Öffnen der App auf New Project klicken. Dann sollte der Bildschirm aussehen wie auf dem folgenden Bild. Dann auf den Reiter oben Links "File" -> "Open" klicken und dann die heruntergeladene CAD-Datei mit der Endung .io auswählen. 
 
 <img width="953" alt="image" src="https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153181616/9e54e68c-6ba1-4490-859f-18de0af0ad80">
+</br>
 
 [.dae](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.dae) [.io](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.io) [.lxfml](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.lxfml) [.pov](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.pov) [.xml](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.xml)
 
