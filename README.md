@@ -61,14 +61,14 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 
 ![Motorrad_Lego_Spike_Anleitung](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/47e7730f-5b3e-4616-881c-5f0ab07418a2)
 
-Download [Bauanleitung](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/files/13733148/Lego_Spike_Motorrad_Bauanleitung.pdf)
+__*Download*__ 
+[Bauanleitung](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/files/13733148/Lego_Spike_Motorrad_Bauanleitung.pdf)
 
 ## CAD-Modell
 
 ![Aufbauanleitung GIF (2)](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/ac4b700d-944a-4121-8323-258da6c6a848)
 
-__*Downloads*__ 
-
+__*Download:*__ 
 [.dae](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.dae) [.io](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.io) [.lxfml](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.lxfml) [.pov](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.pov) [.xml](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.xml)
 
 Es gibt verschiedene Dateiformate für das CAD Modell des Balancing Bikes. 
