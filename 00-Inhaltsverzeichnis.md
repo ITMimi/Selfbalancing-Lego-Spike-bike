@@ -7,14 +7,15 @@
 |&nbsp;&nbsp;&nbsp;[2.1 Benötigte Bauteile](02-Bauanleitung.md#Benötigte-Bauteile)
 &nbsp;&nbsp;&nbsp;[2.2 Aufbauanleitung](02-Bauanleitung.md#Aufbauanleitung)
 &nbsp;&nbsp;&nbsp;[2.3 CAD-Modell](02-Bauanleitung.md#CAD-Modell)|
-|[3. Code](#Code)|
-|&nbsp;&nbsp;&nbsp;[3.1 Downloads](#Downloads)
-&nbsp;&nbsp;&nbsp;[3.2 Unterschiede Spike-App und Mindstorms-App](#Unterschiede-Spike-App-und-Mindstorms-App)
-&nbsp;&nbsp;&nbsp;[3.3 Code Erklärung](#Code-Erklärung)|
-|[4. Controller-Steuerung](#Controller-Steuerung)|
-|&nbsp;&nbsp;&nbsp;[3.1 Downloads](#Downloads-1)
-&nbsp;&nbsp;&nbsp;[3.2 Code Erklärung](#Code-Erklärung-1)|
-|[4. Zusammenfassung](#Zusammenfassung)|
-|&nbsp;&nbsp;&nbsp;[4.1 Ergebnis](#Ergebnis)
-&nbsp;&nbsp;&nbsp;[4.2 Probleme in der Entwicklung](#Probleme-in-der-Entwicklung)|
+|[3. Code](03-Code.md)|
+|&nbsp;&nbsp;&nbsp;[3.1 Downloads](03-Code.md#Downloads)
+&nbsp;&nbsp;&nbsp;[3.2 Unterschiede Spike-App und Mindstorms-App](03-Code.md#Unterschiede-Spike-App-und-Mindstorms-App)
+&nbsp;&nbsp;&nbsp;[3.3 Code Erklärung](03-Code.md#Code-Erklärung)|
+|[4. Controller-Steuerung](04-Controller_Steuerung.md)|
+|&nbsp;&nbsp;&nbsp;[4.1 Downloads](04-Controller_Steuerung.md#Downloads-1)
+&nbsp;&nbsp;&nbsp;[4.2 Code Erklärung](04-Controller_Steuerung.md#Code-Erklärung-1)|
+|[5. Zusammenfassung](05-Zusammenfassung.md)|
+|&nbsp;&nbsp;&nbsp;[5.1 Ergebnis](05-Zusammenfassung.md#Ergebnis)
+&nbsp;&nbsp;&nbsp;[5.2 Probleme in der Entwicklung](05-Zusammenfassung.md#Probleme-in-der-Entwicklung)|
+|[6. Quellen](06-Quellen.md)|
 
