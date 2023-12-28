@@ -61,9 +61,8 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 
 ![Motorrad_Lego_Spike_Anleitung](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/47e7730f-5b3e-4616-881c-5f0ab07418a2)
 
-__*Download:*__ 
+__*Download:*__  Bauanleitung](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/files/13789514/Lego_Spike_Motorrad_Bauanleitung.pdf)
 
-[Bauanleitung](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/files/13733148/Lego_Spike_Motorrad_Bauanleitung.pdf)
 
 ## CAD-Modell
 
@@ -74,11 +73,8 @@ Erstellt wurde das CAD Modell mit der kostenfreiens App: Studio 2.0 von BrickLin
 Dabei lässt sich das Modell mit der Datei mit der Endung .io am leichtesten importieren zum Anschauen und Auseinandernehmen. 
 Nach dem Öffnen der App auf New Project klicken. Dann sollte der Bildschirm aussehen wie auf dem folgenden Bild. Dann auf den Reiter oben Links "File" -> "Open" klicken und dann die heruntergeladene CAD-Datei mit der Endung .io auswählen. 
 
-__*Download:*__ 
-
-[.dae](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.dae) [.io](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.io) [.lxfml](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.lxfml) [.pov](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.pov) [.xml](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.xml)
-
-
+__*Download:*__ [.dae](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.dae) [.io](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.io) [.lxfml](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.lxfml) [.pov](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.pov) [.xml](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/CAD.xml)
+</br></br>
 <img width="953" alt="image" src="https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153181616/9e54e68c-6ba1-4490-859f-18de0af0ad80">
 
 # Code
