@@ -49,12 +49,13 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 | Kreuz - Verbindungsstück (Schwarz) (39793)| 1 |  ![Download](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/93b83278-ecc9-4cc3-a7be-7e0fc6d4c8d8)|
 | Verbindungsstange mittel (Gelb) (44294)| 1 | ![44294](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/62a9e7d5-20bd-4596-8c62-214edc20a973)|
 | Verbindungsstange kurz (Gelb) (4519)| 3 | ![lego-axle-3-4519-32](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/fa8b5c5d-2072-4bb9-a768-d7571ac228f7)|
-| Verbindungsstück (Blau) (6558)| 4 |
-| Verbindungsstück (Schwarz) (2780)| 50 |
-| Verbindungsfixierung (Grau) (6590)| 2 |
-| Kabelfixierung (Bunt)  (49283)| 3  |
-| 2x2 Plättchen (Blau) (4032) | 4 |
-| Plättchen (Schwarz) (15535)| 2 |
+| Verbindungsstück (Blau) (6558)| 4 | ![S24709ed01c8949d18b6b225e20b21c216 jpg_640x640Q90 jpg_](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/2f28ef6a-e6ed-4d5a-af44-8982ed08d698)|
+| Verbindungsstück (Schwarz) (2780)| 50 |![2780-0-ba1ebcb0-c6bc-4fc1-8dec-57543da7583f](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/7e608b1d-b38a-4cfe-b792-206dd0ffef9f)|
+| Verbindungsfixierung (Grau) (42798)| 2 |![lego-medium-stone-gray-bushing-6590-42798-32-88261-64](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/9222d661-c683-4465-80ef-ec5fa8d056f1)|
+| Kabelfixierung (Bunt)  (49283)| 3  |![lego-white-wire-clip-with-cross-hole-49283-27-328507-92](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/1aee2165-b411-4b6d-8157-a1710077ac71)|
+| 2x2 Plättchen (Blau) (4032) | 4 | ![lego-medium-azure-plate-2-x-2-round-with-axle-hole-with-axle-hole-4032-28-680648-73](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/ae87bd4d-d7c7-471b-a519-7ef97182cadf)|
+| Plättchen (Schwarz) (15535)| 2 |![6143850](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/b4c7d1b3-4b29-4383-8139-d2fd72137391)|
+
 
 ## Aufbauanleitung
 
