@@ -32,7 +32,7 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 
 | Bauteil | Anzahl | Bild |                
 |---------|--------|------|
-| Lego Spike Hub (53444)   | 1      |  ![Lego_Hub](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/09868cf2-95a5-4435-a5d4-aa8e6bfc4ce6)|
+| Lego Spike Hub (53444)   | 1      | ![Lego_Hub](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/63d3cf57-24c2-44a2-a219-d4748a9d9ad1)|
 
 | Großer Motor (54675)     | 1      |
 | Kleiner Motor (54696) | 2      |
