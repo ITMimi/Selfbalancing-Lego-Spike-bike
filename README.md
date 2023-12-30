@@ -39,8 +39,8 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 | 4x2 Baustein (Bunt) (39789)| 8     | ![Baustein Bunt](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/7784dcf5-c2cc-4980-87b7-e97727967975)|
 |16x2 Baustein Flach (Lila) (4282)| 2  | ![Lila 16x2 Baustein](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/a1259017-938f-4cfc-a2f3-2341e01c89eb)|
 | 8x2 Baustein Flach (Schwarz) (3738)  | 2  | ![450-src](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/49d541ce-62a3-405d-b70c-a89603a8deb1)|
-| 2x2 Baustein abgerundet (Schwarz) (44126)| 2| 
-| 3x1 Verbindungsschiene (Gelb) (32523)| 4 |
+| 2x2 Baustein abgerundet (Schwarz) (44126)| 2| ![279x279](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/f438f7f2-7854-46b4-a5ef-f1fa8a5b109c)|
+| 3x1 Verbindungsschiene (Gelb) (32523)| 4 | ![lego-beam-3-32523-41482-32](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/ad08ba52-0f67-4642-be7a-d4df6b799dc9)|
 | 7x1 Verbindungsschiene (Blau) (32524)| 3 |
 | 9x1 Verbindungsschiene (Schwarz) (40490)| 3 |
 | gebogenes Panel (Blau) (11954)| 2|
