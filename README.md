@@ -45,11 +45,10 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 | 9x1 Verbindungsschiene (Schwarz) (40490)| 3 | ![2700-src](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/04602a9f-6438-4a03-9b5f-48c3a0acbddf)|
 | gebogenes Panel (Blau) (11954)| 2| ![11954](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/f121c3b9-a9a9-470f-a822-c7a7e503491a)|
 | T - Verbindungsstück (Schwarz) (60484)| 2 | ![lego-black-beam-3-x-3-t-shaped-60484-32-310135-38](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/d98628d2-2d43-4ded-ad66-99b81b6b36b3)|
-
-| Kreuz - Verbindungsstück (Lila) (39793)| 4 |
-| Kreuz - Verbindungsstück (Schwarz) (39793)| 1 |
-| Verbindungsstange mittel (Gelb) (44294)| 1 |
-| Verbindungsstange kurz (Gelb) (4519)| 3 |
+| Kreuz - Verbindungsstück (Lila) (39793)| 4 | ![41027-src](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/3968b3ef-0dd7-44e4-b635-a97fb07c834a)|
+| Kreuz - Verbindungsstück (Schwarz) (39793)| 1 |  ![Download](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/93b83278-ecc9-4cc3-a7be-7e0fc6d4c8d8)|
+| Verbindungsstange mittel (Gelb) (44294)| 1 | ![44294](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/62a9e7d5-20bd-4596-8c62-214edc20a973)|
+| Verbindungsstange kurz (Gelb) (4519)| 3 | ![lego-axle-3-4519-32](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/fa8b5c5d-2072-4bb9-a768-d7571ac228f7)|
 | Verbindungsstück (Blau) (6558)| 4 |
 | Verbindungsstück (Schwarz) (2780)| 50 |
 | Verbindungsfixierung (Grau) (6590)| 2 |
