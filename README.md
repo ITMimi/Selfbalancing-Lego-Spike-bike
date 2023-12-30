@@ -37,9 +37,9 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 | Kleiner Motor (54696) | 2  |    ![LEGO-Education-SPIKE-Technic-Mittelgrosser-Winkelmotor-E_761142_a-ZD](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/2e5f4f79-bf34-4552-9022-e6645813f61d)|
 | Großes Rad (49295)   | 2      | ![Reifen](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/2cf7abb6-6312-41db-96cb-b8ad9c570930)|
 | 4x2 Baustein (Bunt) (39789)| 8     | ![Baustein Bunt](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/7784dcf5-c2cc-4980-87b7-e97727967975)|
-|16x2 Baustein Flach (Lila) (4282)| 2  |
-| 8x2 Baustein Flach (Schwarz) (3738)  | 2  |
-| 2x2 Baustein abgerundet (Schwarz) (44126)| 2|
+|16x2 Baustein Flach (Lila) (4282)| 2  | ![Lila 16x2 Baustein](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/a1259017-938f-4cfc-a2f3-2341e01c89eb)|
+| 8x2 Baustein Flach (Schwarz) (3738)  | 2  | ![450-src](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/49d541ce-62a3-405d-b70c-a89603a8deb1)|
+| 2x2 Baustein abgerundet (Schwarz) (44126)| 2| 
 | 3x1 Verbindungsschiene (Gelb) (32523)| 4 |
 | 7x1 Verbindungsschiene (Blau) (32524)| 3 |
 | 9x1 Verbindungsschiene (Schwarz) (40490)| 3 |
