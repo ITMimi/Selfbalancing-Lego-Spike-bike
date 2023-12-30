@@ -41,10 +41,11 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 | 8x2 Baustein Flach (Schwarz) (3738)  | 2  | ![450-src](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/49d541ce-62a3-405d-b70c-a89603a8deb1)|
 | 2x2 Baustein abgerundet (Schwarz) (44126)| 2| ![279x279](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/f438f7f2-7854-46b4-a5ef-f1fa8a5b109c)|
 | 3x1 Verbindungsschiene (Gelb) (32523)| 4 | ![lego-beam-3-32523-41482-32](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/ad08ba52-0f67-4642-be7a-d4df6b799dc9)|
-| 7x1 Verbindungsschiene (Blau) (32524)| 3 |
-| 9x1 Verbindungsschiene (Schwarz) (40490)| 3 |
-| gebogenes Panel (Blau) (11954)| 2|
-| T - Verbindungsstück (Schwarz) (60484)| 2 |
+| 7x1 Verbindungsschiene (Blau) (32524)| 3 | ![21461-src](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/2d7f1b22-907b-4256-8511-94b11acb5928)|
+| 9x1 Verbindungsschiene (Schwarz) (40490)| 3 | ![2700-src](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/04602a9f-6438-4a03-9b5f-48c3a0acbddf)|
+| gebogenes Panel (Blau) (11954)| 2| ![11954](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/f121c3b9-a9a9-470f-a822-c7a7e503491a)|
+| T - Verbindungsstück (Schwarz) (60484)| 2 | ![lego-black-beam-3-x-3-t-shaped-60484-32-310135-38](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/d98628d2-2d43-4ded-ad66-99b81b6b36b3)|
+
 | Kreuz - Verbindungsstück (Lila) (39793)| 4 |
 | Kreuz - Verbindungsstück (Schwarz) (39793)| 1 |
 | Verbindungsstange mittel (Gelb) (44294)| 1 |
@@ -55,8 +56,6 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 | Kabelfixierung (Bunt)  (49283)| 3  |
 | 2x2 Plättchen (Blau) (4032) | 4 |
 | Plättchen (Schwarz) (15535)| 2 |
-
-![Bauanleitung Roboter Bild](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/72ea02f9-630d-45fe-be9d-5af9da3b8c80)
 
 ## Aufbauanleitung
 
