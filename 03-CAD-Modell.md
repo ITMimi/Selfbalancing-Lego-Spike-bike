@@ -8,9 +8,9 @@ Zum Anschauen des CAD-Modells: [Link](https://www.bricklink.com/v3/studio/design
 
 ## Download
 
-
-Es gibt verschiedene Dateiformate für das CAD Modell des Balancing Bikes. 
-Erstellt wurde das CAD Modell mit der kostenfreiens App: Studio 2.0 von BrickLink. ([Downloadlink](https://www.bricklink.com/v3/studio/download.page)) 
+Download: [.io](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Cad/Lego_Spike_Bike_CAD.io) 
+ 
+Erstellt wurde das CAD Modell mit der kostenfreiens App: Studio 2.0 von BrickLink ([Downloadlink](https://www.bricklink.com/v3/studio/download.page)). 
 Dabei lässt sich das Modell mit der Datei mit der Endung .io am leichtesten importieren zum Anschauen und Bearbeiten. 
 Nach dem Öffnen der App auf New Project klicken. Dann sollte der Bildschirm aussehen wie auf dem folgenden Bild. Dann auf den Reiter oben Links "File" -> "Open" klicken und dann die heruntergeladene CAD-Datei mit der Endung .io auswählen. 
 
