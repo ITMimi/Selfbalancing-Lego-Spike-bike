@@ -4,9 +4,8 @@
 |------|
 |[1. Einleitung](01-Einleitung.md)|
 |[2. Bauanleitung](02-Bauanleitung.md)| 
-|&nbsp;&nbsp;&nbsp;[2.1 Benötigte Bauteile](02-Bauanleitung.md#Benötigte-Bauteile)
-&nbsp;&nbsp;&nbsp;[2.2 Aufbauanleitung](02-Bauanleitung.md#Aufbauanleitung)
-&nbsp;&nbsp;&nbsp;[2.3 CAD-Modell](02-Bauanleitung.md#CAD-Modell)|
+|&nbsp;&nbsp;&nbsp;[2.1 Download](02-Bauanleitung.md#Download)
+&nbsp;&nbsp;&nbsp;[2.2 Benötigte Bauteile](02-Bauanleitung.md#Benötigte-Bauteile)|
 |[3. Code](03-Code.md)|
 |&nbsp;&nbsp;&nbsp;[3.1 Downloads](03-Code.md#Downloads)
 &nbsp;&nbsp;&nbsp;[3.2 Unterschiede Spike-App und Mindstorms-App](03-Code.md#Unterschiede-Spike-App-und-Mindstorms-App)
