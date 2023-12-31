@@ -2,13 +2,13 @@
 
 ## Download
 
-Download: [Bauanleitung](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/files/13789514/Lego_Spike_Motorrad_Bauanleitung.pdf)
+Download: [Bauanleitung (.pdf)](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/files/13789514/Lego_Spike_Motorrad_Bauanleitung.pdf)
 
 ## Benötigte Bauteile
 
 | Bauteil | Anzahl | Bild |                
 |---------|--------|------|
-| Lego Spike Hub (53444)   | 1      |![Lego_Hub](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/349177f2-eae3-48fb-9234-91dcabc5cf86)|
+| Lego Spike Hub (53444)   | 1      |![bb1142c01](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/88210b3b-e823-492c-93d0-b0ff0d3a4302)|
 | Großer Motor (54675)     | 1      | ![Large Motor](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/adee80d5-99ff-45be-8324-744e737f274e)|
 | Kleiner Motor (54696) | 2  |    ![LEGO-Education-SPIKE-Technic-Mittelgrosser-Winkelmotor-E_761142_a-ZD](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/2e5f4f79-bf34-4552-9022-e6645813f61d)|
 | Großes Rad (49295)   | 2      | ![Reifen](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153182286/2cf7abb6-6312-41db-96cb-b8ad9c570930)|
