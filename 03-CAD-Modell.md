@@ -4,7 +4,7 @@
 
 ## Webansicht
 
-Zum Anschauen des CAD-Modells: [Link](https://www.bricklink.com/v3/studio/design.page?idModel=501407){:target="_blank"} öffnen und auf das Symbol "3D Modell", welches sich rechts mittig auf der Webseite befindet klicken.
+Zum Anschauen des CAD-Modells: [Link](https://www.bricklink.com/v3/studio/design.page?idModel=501407#target="_blank"){:target="_blank"} öffnen und auf das Symbol "3D Modell", welches sich rechts mittig auf der Webseite befindet klicken.
 
 ## Download
 
