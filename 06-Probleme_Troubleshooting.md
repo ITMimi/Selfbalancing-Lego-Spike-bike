@@ -1,8 +1,17 @@
-# Probleme / Troubleshooting
+# Entwicklung / Probleme / Troubleshooting
+
+Unser Ziel war es, das selbstausbalancierende Motorrad vom YouTube-Kanal 
+
+## Bauweise 
+
+Wir haben damit begonnen uns über die Bauweise für das Motorrad Gedanken zu machen. Dabei war uns schnell klar, dass eine möglichst kompakte Bauweise entscheidend ist, um in der Lage zu sein das Motorrad später auszubalancieren. Unser erster Prototyp war wesentlich zu lang, was es kaum möglich machte, diesen auszubalancieren.  
+
+
+
 
 ## Bauweise
 
-Wir haben zuerst eine andere, weniger kompakte, Bauweise für das Motorrad gewählt. Uns ist relativ schnell aufgefallen, dass es dadurch wesentlich schwieriger wurde das Motorrad auszubalancieren. Wir haben uns daher dazu entschieden uns an der Bauweise aus dem [YouTube-Video](https://www.youtube.com/watch?v=IiCZoNBiXc0) zu orientieren. 
+Zu Beginn haben wir eine weniger kompakte Bauweise für das Motorrad gewählt und damit die ersten Tests gemacht. Dabei ist uns schnell aufgefallen, dass die Kompaktheit einer der wichtigsten Faktoren ist, um das Motorrad ausbalancieren zu können. Daher haben wir uns aus zeitlichen Gründen dazu entschieden, uns an der Bauweise aus dem [YouTube-Video](https://www.youtube.com/watch?v=IiCZoNBiXc0) zu orientieren.  
 
 ## Programmierung
 
