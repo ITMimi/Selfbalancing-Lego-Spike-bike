@@ -1,6 +1,6 @@
 # Entwicklung / Probleme / Troubleshooting
 
-Unser Ziel war es, das selbstausbalancierende Motorrad vom YouTube-Kanal 
+Unser Ziel war es, ein selbstausbalancierendes Motorrad mithilfe des Lego-Spike-Sets zu bauen und zu entwickeln. Während der ersten Recherche sind wir auf den YouTube Kanal  
 
 ## Bauweise 
 
