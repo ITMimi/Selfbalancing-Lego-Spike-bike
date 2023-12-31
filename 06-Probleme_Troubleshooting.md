@@ -1,6 +1,7 @@
 # Entwicklung / Probleme / Troubleshooting
 
-Unser Ziel war es, ein selbstausbalancierendes Motorrad mithilfe des Lego-Spike-Sets zu bauen und zu entwickeln. Während der ersten Recherche sind wir auf den YouTube Kanal  
+Unser Ziel war es, ein selbstausbalancierendes Motorrad mithilfe des Lego-Spike-Sets zu bauen. Während der ersten Recherche sind wir auf den YouTube Kanal[Creator Academy Australia](https://www.youtube.com/watch?v=MCVW2Uqanlw) gestoßen. Dort gibt es [3 Videos](08-Quellen.md) zu der Entwicklung eines solchen Motorrads. Wir haben damit begonnen eine eigene Bauweise für einen ersten Prototypen zu entwickeln. Dabei ist uns schnell aufgefallen, dass eine kompakte Bauweise sehr entscheidend ist, um das Motorrad später ausbalancieren zu können. Nachdem unsere ersten Prototypen viel zu lang und unkompakt waren, entschieden wir, uns an der Bauweise von [Creator Academy Australia](https://www.youtube.com/watch?v=MCVW2Uqanlw) zu orientieren und das Motorrad ersteinmal nachzubauen. Eine von uns erstellte [Bauanleitung](02-Bauanleitung.md) im Lego-Stil, sowie eine [CAD-Modell](03-CAD-Modell.md) sind in diesem Repository verfügbar. 
+
 
 ## Bauweise 
 
