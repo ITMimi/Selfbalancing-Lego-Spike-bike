@@ -19,7 +19,6 @@
 |[6. Probleme/ Troubleshooting](06-Probleme_Troubleshooting.md)|
 |&nbsp;&nbsp;&nbsp;[6.1 Ergebnis](06-Probleme_Troubleshooting.md#Ergebnis)
 &nbsp;&nbsp;&nbsp;[6.2 Probleme in der Entwicklung](06-Probleme_Troubleshooting.md#Probleme-in-der-Entwicklung)|
-|[7. Zusammenfassung](07-Zusammenfassung.md)|
-|&nbsp;&nbsp;&nbsp;[7.1 Ergebnis](07-Zusammenfassung.md#Ergebnis)
-|[7. Quellen](07-Quellen.md)|
+|[7. Ergebnis](07-Ergebnis.md)|
+|[8. Quellen](08-Quellen.md)|
 
