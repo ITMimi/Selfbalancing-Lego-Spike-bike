@@ -16,8 +16,10 @@
 |[5. Controller-Steuerung](05-Controller_Steuerung.md)|
 |&nbsp;&nbsp;&nbsp;[5.1 Download](05-Controller_Steuerung.md#Download)
 &nbsp;&nbsp;&nbsp;[5.2 Code Erklärung](05-Controller_Steuerung.md#Code-Erklärung)|
-|[6. Zusammenfassung](06-Zusammenfassung.md)|
-|&nbsp;&nbsp;&nbsp;[6.1 Ergebnis](06-Zusammenfassung.md#Ergebnis)
-&nbsp;&nbsp;&nbsp;[6.2 Probleme in der Entwicklung](06-Zusammenfassung.md#Probleme-in-der-Entwicklung)|
+|[6. Probleme/ Troubleshooting](06-Probleme_Troubleshooting.md)|
+|&nbsp;&nbsp;&nbsp;[6.1 Ergebnis](06-Probleme_Troubleshooting.md#Ergebnis)
+&nbsp;&nbsp;&nbsp;[6.2 Probleme in der Entwicklung](06-Probleme_Troubleshooting.md#Probleme-in-der-Entwicklung)|
+|[7. Zusammenfassung](07-Zusammenfassung.md)|
+|&nbsp;&nbsp;&nbsp;[7.1 Ergebnis](07-Zusammenfassung.md#Ergebnis)
 |[7. Quellen](07-Quellen.md)|
 
