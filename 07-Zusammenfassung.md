@@ -1,6 +1,4 @@
-# Zusammenfassung
-
-## Ergebnis
+# Ergebnis
 
 In den beiden Videos ist unser Prototyp des sich selbst ausbalancierenden Motorrads zu sehen. Das Motorrad ist in der Lage längere Strecken zurückzulegen und sich dabei durch Lenkbewegungen zu stabilisieren, welche mithilfe des Gyroskosps berechnet werden. Getestet haben wir den Mechanismus auf Teppichboden (Video 2) und auf dem glatteren Gummibodenbelag (Video 1). Auf beiden Untergründen war das Motorrad in der Lage sich selbst auszubalancieren. Außerdem haben wir eine erste Idee für eine Controller-Steuerung entwickelt. 
 
