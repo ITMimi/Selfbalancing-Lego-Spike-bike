@@ -1,6 +1,7 @@
-## Probleme in der Entwicklung
+## Probleme / Troubleshooting
 
 ### Bauweise
+
 Wir haben zuerst eine andere, weniger kompakte, Bauweise für das Motorrad gewählt. Uns ist relativ schnell aufgefallen, dass es dadurch wesentlich schwieriger wurde das Motorrad auszubalancieren. Wir haben uns daher dazu entschieden uns an der Bauweise aus dem [YouTube-Video](https://www.youtube.com/watch?v=IiCZoNBiXc0) zu orientieren. 
 
 ### Programmierung
