@@ -9,7 +9,7 @@
 |[3. CAD-Modell](03-CAD-Modell.md)|
 |&nbsp;&nbsp;&nbsp;[3.1 Webansicht](03-CAD-Modell.md#Webansicht)
 &nbsp;&nbsp;&nbsp;[3.2 Download](03-CAD-Modell.md#Download)|
-|[4. Code](04-Code_Balancierung.md)|
+|[4. Code-Balancierung](04-Code_Balancierung.md)|
 |&nbsp;&nbsp;&nbsp;[4.1 Downloads](04-Code_Balancierung.md#Downloads)
 &nbsp;&nbsp;&nbsp;[4.2 Unterschiede Spike-App und Mindstorms-App](04-Code_Balancierung.md#Unterschiede-Spike-App-und-Mindstorms-App)
 &nbsp;&nbsp;&nbsp;[4.3 Code Erklärung](04-Code_Balancierung.md#Code-Erklärung)|
