@@ -44,6 +44,8 @@ Die Zielwerte für die Ausrichtung ("Heading Target"), sowie für den Roll-Winke
      11. setze previous error auf 0     
      12. setze Integral auf 0
 
+<a name="Reset"></a>
+
 In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden deklariert und auf 0 gesetzt. Prinzipiell sollte es nicht notwendig sein, die Variablen bereits an dieser Stelle zu initialisieren. Wir sind jedoch in der Testphase auf das Problem gestoßen, dass einzelne Variablen nicht korrekt zurückgesetzt wurden, wenn das Programm neu gestartet wurde. Daher werden alle Variablen an dieser Stelle einmal auf 0 gesetzt. 
 
      13. setzte Steerpower auf 2.6
