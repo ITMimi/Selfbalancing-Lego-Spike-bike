@@ -36,15 +36,15 @@ Für den Roll-Winkel gilt gegenteiliges. Hier ist nicht die Abweichung von der S
      6. setze Heading Target auf 0
 
 Die Zielwerte für die Ausrichtung ("Heading Target"), sowie für den Roll-Winkel ("Balance Target") werden auf 0 gesetzt.
-     
+
+<a name="Reset"></a>
+
      7. setzte Result auf 0
      8. setze Heading auf 0
      9. setze Error auf 0
      10. setze Derrivate auf 0
      11. setze previous error auf 0     
      12. setze Integral auf 0
-
-<a name="Reset"></a>
 
 In diesem Abschnitt werden die Variablen, welche für die Lenkbewegungen benötigt werden deklariert und auf 0 gesetzt. Prinzipiell sollte es nicht notwendig sein, die Variablen bereits an dieser Stelle zu initialisieren. Wir sind jedoch in der Testphase auf das Problem gestoßen, dass einzelne Variablen nicht korrekt zurückgesetzt wurden, wenn das Programm neu gestartet wurde. Daher werden alle Variablen an dieser Stelle einmal auf 0 gesetzt. 
 
