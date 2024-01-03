@@ -20,7 +20,7 @@
 |&nbsp;&nbsp;&nbsp;[6.1 Bauweise](06-Entwicklung_Probleme_Troubleshooting.md#Bauweise)
 &nbsp;&nbsp;&nbsp;[6.2 Probleme in der Entwicklung](06-Entwicklung_Probleme_Troubleshooting.md#Programmierung)
 &nbsp;&nbsp;&nbsp;[6.2 Probleme in der Entwicklung](06-Entwicklung_Probleme_Troubleshooting.md#Controller-Steuerung)
-&nbsp;&nbsp;&nbsp;[6.2 Probleme in der Entwicklung](06-Entwicklung_Probleme_Troubleshooting.md#Connection-zwischen-Hub-und-Computer)|
+&nbsp;&nbsp;&nbsp;[6.2 Probleme in der Entwicklung](06-Entwicklung_Probleme_Troubleshooting.md#(Bluettoth-)-Connection-zwischen-Hub-und-Computer)|
 |[7. Ergebnis](07-Ergebnis.md)|
 |[8. Quellen](08-Quellen.md)|
 
