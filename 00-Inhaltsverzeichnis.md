@@ -16,11 +16,11 @@
 |[5. Controller-Steuerung](05-Controller_Steuerung.md)|
 |&nbsp;&nbsp;&nbsp;[5.1 Download](05-Controller_Steuerung.md#Download)
 &nbsp;&nbsp;&nbsp;[5.2 Code Erklärung](05-Controller_Steuerung.md#Code-Erklärung)|
-|[6. Entwicklung/ Probleme/ Troubleshooting](06-Entwicklung_Probleme_Troubleshooting.md)|
-|&nbsp;&nbsp;&nbsp;[6.1 Bauweise](06-Entwicklung_Probleme_Troubleshooting.md#Bauweise)
-&nbsp;&nbsp;&nbsp;[6.2 Programmierung](06-Entwicklung_Probleme_Troubleshooting.md#Programmierung)
-&nbsp;&nbsp;&nbsp;[6.3 Controller-Steuerung](06-Entwicklung_Probleme_Troubleshooting.md#Controller-Steuerung)
-&nbsp;&nbsp;&nbsp;[6.4 (Bluetooth-) Connection zwischen Hub und Computer](06-Entwicklung_Probleme_Troubleshooting.md#Bluetooth-Connection-zwischen-Hub-und-Computer)|
-|[7. Ergebnis](07-Ergebnis.md)|
+|[6. Ergebnis](06-Ergebnis.md)|
+|[7. Entwicklung/ Probleme/ Troubleshooting](07-Entwicklung_Probleme_Troubleshooting.md)|
+|&nbsp;&nbsp;&nbsp;[7.1 Bauweise](07-Entwicklung_Probleme_Troubleshooting.md#Bauweise)
+&nbsp;&nbsp;&nbsp;[7.2 Programmierung](07-Entwicklung_Probleme_Troubleshooting.md#Programmierung)
+&nbsp;&nbsp;&nbsp;[7.3 Controller-Steuerung](07-Entwicklung_Probleme_Troubleshooting.md#Controller-Steuerung)
+&nbsp;&nbsp;&nbsp;[7.4 (Bluetooth-) Connection zwischen Hub und Computer](07-Entwicklung_Probleme_Troubleshooting.md#Bluetooth-Connection-zwischen-Hub-und-Computer)|
 |[8. Quellen](08-Quellen.md)|
 
