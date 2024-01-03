@@ -12,7 +12,7 @@ Während der Tests stellten wir fest, dass die Variablen nach dem Beenden des Pr
 
 ## Controller-Steuerung
 
-Nachdem das Motorrad in der Lage war, sich selbst auszubalancieren, haben wir versucht eine Controller-Steuerung zu implementieren. Dabei sind wir leider auf verschiedene Probleme gestoßen, welche wir aus zeitlichen Gründen nicht mehr lösen konnten. Am entscheidensten war der Unterschied vom Download- zum Streaming-Modus. Der Streaming-Modus ist notwendig, um die Controller-Inputs registrieren und verarbeiten zu können. Während die Balancierung im Download-Modus, problemlos funktioniert, ist das Motorrad im Streaming-Modus bei gleichem Code nicht mehr in der Lage zu stabil fahren.  
+Nachdem das Motorrad in der Lage war, sich selbst auszubalancieren, haben wir versucht eine [Controller-Steuerung](05-Controller_Steuerung.md) zu implementieren. Dabei sind wir leider auf verschiedene Probleme gestoßen, welche wir aus zeitlichen Gründen nicht mehr lösen konnten. Am entscheidensten war der Unterschied vom Download- zum Streaming-Modus. Der Streaming-Modus ist notwendig, um die Controller-Inputs registrieren und verarbeiten zu können. Während die Balancierung im Download-Modus, problemlos funktioniert, ist das Motorrad im Streaming-Modus bei gleichem Code nicht mehr in der Lage zu stabil fahren. Dennoch haben wir einen ersten Ansatz für eine [Controller-Stuerung](05-Controller_Steuerung.md) entwickelt, der es ermöglicht, die Geschwindigkeit zu steuern und das Vorderrad mithilfe eine Joysticks zu lenken. 
 
 ## Connection zwischen Hub und Computer
 
