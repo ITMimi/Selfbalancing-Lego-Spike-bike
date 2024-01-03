@@ -2,8 +2,8 @@
 
 ## Download
 
-Download: 
-Aufbauanleitung im Legostil: [Bauanleitung (.pdf)](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/files/13789514/Lego_Spike_Motorrad_Bauanleitung.pdf)
+
+Aufbauanleitung im Legostil zum downloaden: [Bauanleitung (.pdf)](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/files/13789514/Lego_Spike_Motorrad_Bauanleitung.pdf)
 
 ## Benötigte Bauteile
 
