@@ -4,7 +4,7 @@
 
 [Code](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Code/Spike%20App/Selfbalancing_Bike_SpikeApp_final.llsp3) für Spike App (Geeignet ausschließlich für die Balancierung des Bikes)
 
-[Code](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Code/Mindstorms%20App/Selfbalancing_Bike_MindstormsApp_final.lms) für Mindstorms App (Geeignet wenn neben Selbstbalancierung, eine Steuerung geplant ist)
+[Code](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Code/Mindstorms%20App/Selfbalancing_Bike_MindstormsApp_final.lms) für [Mindstorms-App](https://education.lego.com/de-de/downloads/mindstorms-ev3/software/) (Geeignet wenn neben Selbstbalancierung, eine Steuerung geplant ist)
 
 ## Unterschiede Spike-App und Mindstorms-App 
 
