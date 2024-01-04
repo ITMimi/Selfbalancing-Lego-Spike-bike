@@ -21,10 +21,10 @@ Dieses Repository sowie alle sich darin befindlichen Inhalte( Texte, CAD-Dateien
 [Brick Owl](https://www.brickowl.de/)
 
 
-##Softwareapplikationen:
+## Softwareapplikationen:
 
-https://education.lego.com/de-de/downloads/mindstorms-ev3/software/
+[Lego Mindstorms-App](https://education.lego.com/de-de/downloads/mindstorms-ev3/software/)
 
-https://education.lego.com/de-de/downloads/spike-app/software/ 
+[Lego Spike-App](https://education.lego.com/de-de/downloads/spike-app/software/) 
 
-https://www.bricklink.com/v3/studio/download.page
+[Bricklink Studio 2.0](https://www.bricklink.com/v3/studio/download.page)
