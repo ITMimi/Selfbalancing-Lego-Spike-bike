@@ -8,4 +8,8 @@
 
 [Programmier-Tutorial](https://www.youtube.com/watch?v=TupLmKkHMBU)
 
+## Bildquellen Legobauteile: 
+
+[Lego.com](https://www.lego.com/de-de)
+
 
