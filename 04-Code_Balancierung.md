@@ -8,7 +8,7 @@
 
 ## Unterschiede Spike-App und Mindstorms-App 
 
-Die erste Version des selbstausbalancierenden Motorrads haben wir in der Spike App erstellt. Um die Möglichkeit zu haben eine Controller-Steuerung zu implementieren sind wir dann auf die Mindstorms App umgestiegen und mussten dort ein paar Parameter anpassen (z.B. die Geschwindigkeitsleistung). Daher sind in beide Code-Versionen in den entsprechenden Ordnern zu finden. Der folgende Code funktioniert sowohl in der Spike-App als auch in der Mindstorms-App. Lediglich die Antriebsgeschwindigkeit wurde in der Mindstorms-App von 85% auf 100% erhöht.   
+Die erste Version des selbstausbalancierenden Motorrads haben wir in der Spike-App erstellt. Um die Möglichkeit zu haben eine Controller-Steuerung zu implementieren sind wir dann auf die Mindstorms-App umgestiegen und mussten dort ein paar Parameter anpassen (z.B. die Geschwindigkeitsleistung). Daher sind in beide Code-Versionen in den entsprechenden Ordnern zu finden. Der folgende Code funktioniert sowohl in der Spike-App als auch in der Mindstorms-App. Lediglich die Antriebsgeschwindigkeit wurde in der Mindstorms-App von 85% auf 100% erhöht.   
 
 ## Code Erklärung
 
