@@ -1,7 +1,7 @@
 # Selfbalancing-Lego-Spike-bike
 
 Dieses Projekt ist in verschiedene Unterkapitel gegliedert, welche dem Inhaltsverzeichnis entnommen werden können.
-Es empfiehlt sich die Kapitel in der Reihenfolge des Inhaltsverzeichnis anzuschauen und den Ordnern "CAD" und "Code" keine weitere Beachtung zu schenken, da diese lediglich als hinterlegte Speicherorte für zum Download bereitgestellte Dateien benötigt wurden. 
+Es empfiehlt sich die Kapitel in der Reihenfolge des Inhaltsverzeichnis anzuschauen und den Ordnern "CAD" und "Code" keine weitere Beachtung zu schenken, da diese lediglich als hinterlegte Speicherorte für zum Download bereitgestellte Dateien benötigt werden. 
 
 ## [Zum Inhaltsverzeichnis](00-Inhaltsverzeichnis.md)
 
