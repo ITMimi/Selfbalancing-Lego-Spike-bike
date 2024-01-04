@@ -23,7 +23,7 @@ Dieses Repository sowie alle sich darin befindlichen Inhalte( Texte, CAD-Dateien
 
 ##Softwareapplikationen:
 
-https://www.lego.com/de-de/themes/mindstorms/downloads
+https://education.lego.com/de-de/downloads/mindstorms-ev3/software/
 
 https://education.lego.com/de-de/downloads/spike-app/software/ 
 
