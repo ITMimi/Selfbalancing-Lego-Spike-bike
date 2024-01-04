@@ -1,6 +1,6 @@
 # Quellen
 
-Dieses Repository sowie alle sich darin befindlichen Inhalte( Texte, CAD-Dateien, Videos, gerenderte Bilder, etc.) wurden von Laurids Käding und Miriam Reichert als Leistung für das Robotikmodul der TU Chemnitz gefertigt. Anderweitige Quellen, wie das geistige Eigentum von Creator Academy Australia, wurden an den entsprechenden Stellen kenntlich gemacht.
+Dieses Repository sowie alle sich darin befindlichen Inhalte (Texte, CAD-Dateien, Videos, gerenderte Bilder, etc.) wurden von Laurids Käding und Miriam Reichert als Leistung für das Robotikmodul der TU Chemnitz gefertigt. Anderweitige Quellen, wie das geistige Eigentum von Creator Academy Australia, wurden an den entsprechenden Stellen kenntlich gemacht.
 
 ## Videos von [Creator Academy Australia](https://www.youtube.com/@CreatorAcademyAustralia)
 
