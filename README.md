@@ -11,5 +11,5 @@ Das Projekt ist inspiriert und orientiert sich an dem Self Balancing Bike von de
 Dieses Projekt ist in verschiedene Unterkapitel gegliedert, welche dem Inhaltsverzeichnis entnommen werden können.
 Es empfiehlt sich die Kapitel in der Reihenfolge des Inhaltsverzeichnis anzuschauen. 
 
-### [Zum Inhaltsverzeichnis](00-Inhaltsverzeichnis.md)
+## [Zum Inhaltsverzeichnis](00-Inhaltsverzeichnis.md)
 
