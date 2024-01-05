@@ -1,5 +1,7 @@
 # Controller-Steuerung
 
+Zur Nutzung des Codes muss die Mindstorms App bereits instaliert wurden sein. Wie der Code in der App eingesetzt werden kann, wurde bereits bei 04 Code Balancierung erklärt.
+
 ## Download
 
 [Code](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Code/Mindstorms%20App/Lego_Spike_Bike_ControllerSteuerung_MindstormsApp.lms) für [Mindstorms-App](https://education.lego.com/de-de/downloads/mindstorms-ev3/software/)
