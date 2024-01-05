@@ -20,6 +20,9 @@ Dieses Repository sowie alle sich darin befindlichen Inhalte (Texte, CAD-Dateien
 
 [Brick Owl](https://www.brickowl.de/)
 
+https://www.lego.com/de-de/product/lego-education-spike-prime-set-45678?ef_id=ec1af44405f71dc469fe91d3df5274ac:G:s&s_kwcid=AL!933!10!81776300523545!2333575991226013&cmp=KAC-INI-BINGEU-BI-DE_GL-DE-RE-PS-BUY-CREATE-LEGO_GENERAL-SHOP-BP-MM-ALL-CIDNA00000-NOVELTIES_LEGO_GENERAL&msclkid=ec1af44405f71dc469fe91d3df5274ac
+
+
 
 ## Softwareapplikationen:
 
@@ -27,4 +30,4 @@ Dieses Repository sowie alle sich darin befindlichen Inhalte (Texte, CAD-Dateien
 
 [Lego Spike-App](https://education.lego.com/de-de/downloads/spike-app/software/) 
 
-[Bricklink Studio 2.0](https://www.bricklink.com/v3/studio/download.page)
+[Bricklink Studio 2.0](https://www.bricklink.com/v3/studio/download.page) sowie deren Webbasierten Galerie: https://www.bricklink.com/v3/studio/design.page?idModel=501407
