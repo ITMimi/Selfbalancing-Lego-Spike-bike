@@ -1,4 +1,6 @@
-# Erste Schritte
+# Grundlegendes zum Arbeiten mit Lego-Spike/Mindstorms
+
+## Erste Schritte
 
 Um den Roboter programmieren oder die Codes nutzen zu können, muss die jeweilige dazugehörige App ([Spike-App](https://education.lego.com/de-de/downloads/spike-app/software/), [Mindstorms-App](https://education.lego.com/de-de/downloads/mindstorms-ev3/software/)) auf dem Computer installiert sein. 
 
