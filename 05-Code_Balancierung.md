@@ -10,24 +10,6 @@
 
 Die erste Version des selbstausbalancierenden Motorrads haben wir in der Spike-App erstellt. Um die Möglichkeit zu haben eine Controller-Steuerung zu implementieren sind wir dann auf die Mindstorms-App umgestiegen und mussten dort ein paar Parameter anpassen (z.B. die Geschwindigkeitsleistung). Daher sind in beide Code-Versionen in den entsprechenden Ordnern zu finden. Der folgende Code funktioniert sowohl in der Spike-App als auch in der Mindstorms-App. Lediglich die Antriebsgeschwindigkeit wurde in der Mindstorms-App von 85% auf 100% erhöht.   
 
-Um die Codes nutzen zu können, muss die jeweilige dazugehörige App ([Spike-App](https://education.lego.com/de-de/downloads/spike-app/software/), [Mindstorms-App](https://education.lego.com/de-de/downloads/mindstorms-ev3/software/)) auf dem Computer heruntergeladen worden sein.
-
-Zum Öffnen des Codes: evtl. in TABELLE ANzeigen?
-
-Mindstorms App                             
-Nach starten der Mindstorms App: Geburtstjahr bestätigen, und Datenschutzbestimmungen zustimmen. 
-Nun im neuen Projekt auf den Reiter oben links "Datei" klicken-> "Öffnen". Jetzt lediglich die heruntergeladene Code-Datei für die Mindstorms App öffnen.
-
-
-Spike App
-nach dem Installieren der Spike App diese Öffnen und  Bei "Wähle deine Spike Lösung aus" Spike Prime anklicken
-Dann auf neues Projekt klicken -> Textblöcke
-Nun auf den Reiter oben links "Datei" klicken-> "Öffnen" dabei sollte das Fenster wie folgt aussehen:
-
-<img width="955" alt="image" src="https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153181616/0018bfcb-a29b-405d-bae8-ffd0428fe015">
-
-jetzt lediglich die heruntergeladene Code-Datei für die Spikes App öffnen.
-
 ## Code Erklärung
 
 Für die Programmierung des Motorrads haben wir den Textblockmodus der Spike- bzw. Mindstorms-App verwendet. Im Folgenden gehen wir durch die verschiedenen Abschnitte des Codes und erklären diese. Die einzelnen Textbausteine sind entsprechend durchnummeriert.  Es empfiehlt sich im Split-Screen-View die Erklärungen neben den Code zu legen.
