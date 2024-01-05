@@ -30,4 +30,4 @@ Dieses Repository sowie alle sich darin befindlichen Inhalte (Texte, CAD-Dateien
 
 [Lego Spike-App](https://education.lego.com/de-de/downloads/spike-app/software/) 
 
-[Bricklink Studio 2.0](https://www.bricklink.com/v3/studio/download.page) sowie deren Webbasierten Galerie: https://www.bricklink.com/v3/studio/design.page?idModel=501407
+[Bricklink Studio 2.0](https://www.bricklink.com/v3/studio/download.page) sowie deren [Webbasierten Galerie](https://www.bricklink.com/v3/studio/design.page?idModel=501407)
