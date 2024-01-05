@@ -7,8 +7,7 @@ Aufbauanleitung im "Lego-Stil" zum Download: [Bauanleitung (.pdf)](https://githu
 
 ## Benötigte Bauteile
 
-Alle zum Bauen benötigten Teile, befinden sich in dem Lego education Spike Prime Set 
-https://www.lego.com/de-de/product/lego-education-spike-prime-set-45678?ef_id=ec1af44405f71dc469fe91d3df5274ac:G:s&s_kwcid=AL!933!10!81776300523545!2333575991226013&cmp=KAC-INI-BINGEU-BI-DE_GL-DE-RE-PS-BUY-CREATE-LEGO_GENERAL-SHOP-BP-MM-ALL-CIDNA00000-NOVELTIES_LEGO_GENERAL&msclkid=ec1af44405f71dc469fe91d3df5274ac
+Alle zum Bauen benötigten Teile, befinden sich in dem [Lego Education Spike Prime-Set](https://www.lego.com/de-de/product/lego-education-spike-prime-set-45678?ef_id=ec1af44405f71dc469fe91d3df5274ac:G:s&s_kwcid=AL!933!10!81776300523545!2333575991226013&cmp=KAC-INI-BINGEU-BI-DE_GL-DE-RE-PS-BUY-CREATE-LEGO_GENERAL-SHOP-BP-MM-ALL-CIDNA00000-NOVELTIES_LEGO_GENERAL&msclkid=ec1af44405f71dc469fe91d3df5274ac).
 
 | Bauteil | Anzahl | Bild |                
 |---------|--------|------|
