@@ -6,8 +6,7 @@ Zum Öffnen des [Codes](05-Code_Balancierung.md):
 
 |Spike-App|Mindstorms-App|
 |---------|--------------|
-|Nach dem Installieren der Spike App diese Öffnen und  Bei "Wähle deine Spike Lösung aus" Spike Prime anklicken
-Dann auf neues Projekt klicken -> Textblöcke. Nun auf den Reiter oben links "Datei" klicken-> "Öffnen" (siehe Bild), jetzt lediglich die heruntergeladene Code-Datei für die Spikes App öffnen.| Nach starten der Mindstorms App: Geburtstjahr bestätigen, und Datenschutzbestimmungen zustimmen. Nun im neuen Projekt auf den Reiter oben links "Datei" klicken-> "Öffnen". Jetzt lediglich die heruntergeladene Code-Datei für die Mindstorms App öffnen.|
+|Nach dem Installieren der Spike App diese Öffnen und  Bei "Wähle deine Spike Lösung aus" Spike Prime anklicken Dann auf neues Projekt klicken -> Textblöcke. Nun auf den Reiter oben links "Datei" klicken-> "Öffnen" (siehe Bild), jetzt lediglich die heruntergeladene Code-Datei für die Spikes App öffnen.| Nach starten der Mindstorms App: Geburtstjahr bestätigen, und Datenschutzbestimmungen zustimmen. Nun im neuen Projekt auf den Reiter oben links "Datei" klicken-> "Öffnen". Jetzt lediglich die heruntergeladene Code-Datei für die Mindstorms App öffnen.|
 
 
 
