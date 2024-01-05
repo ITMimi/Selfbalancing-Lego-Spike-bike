@@ -22,3 +22,7 @@ Damit das selbstfahrende Lego-Bike den Code und somit die Anweisungen hat, muss 
 ## Code ausführen
 
 Zum Starten des Codes nach dem Verbinden entweder auf das Play Symbol unten links in der Ecke klicken oder einmal kurz den Knopf auf dem Hub betätigen. Dabei muss darauf geachtet werden, in welchem Modus der Code gestartet wird. Für die Balancierung ist es wichtig, dass der Code im *Download-Modus* ausgeführt wird (siehe [hier](06-Controller_Steuerung.md#Code-Erklärung)).
+
+## Ausführliche Anleitung
+
+Für eine ausführlichere Anleitung siehe [hier](https://education.lego.com/de-de/product-resources/spike-prime/troubleshooting/verbindungsanleitungen/). 
