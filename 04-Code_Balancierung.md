@@ -1,14 +1,33 @@
 # Code
 
-## Downloads
+## Unterschiede Spike-App und Mindstorms-App 
+
+Die erste Version des selbstausbalancierenden Motorrads haben wir in der Spike-App erstellt. Um die Möglichkeit zu haben eine Controller-Steuerung zu implementieren sind wir dann auf die Mindstorms-App umgestiegen und mussten dort ein paar Parameter anpassen (z.B. die Geschwindigkeitsleistung). Daher sind in beide Code-Versionen in den entsprechenden Ordnern zu finden. Der folgende Code funktioniert sowohl in der Spike-App als auch in der Mindstorms-App. Lediglich die Antriebsgeschwindigkeit wurde in der Mindstorms-App von 85% auf 100% erhöht.   
+
+Um die Codes nutzen zu können, muss die jeweilige dazugehörige App (LEGO MINDSTORM LINK, LEGO SPIKE LINK] auf dem Computer heruntergeladen worden sein. 
+
+Zum Öffnen des Codes: evtl. in TABELLE ANzeigen?
+
+Mindstorms App                             
+Nach starten der Mindstorms App: Geburtstjahr bestätigen, und Datenschutzbestimmungen zustimmen. 
+Nun im neuen Projekt auf den Reiter oben links "Datei" klicken-> "Öffnen". Jetzt lediglich die heruntergeladene Code-Datei für die Mindstorms App öffnen.
+
+
+Spike App
+nach dem Installieren der Spike App diese Öffnen und  Bei "Wähle deine Spike Lösung aus" Spike Prime anklicken
+Dann auf neues Projekt klicken -> Textblöcke
+Nun auf den Reiter oben links "Datei" klicken-> "Öffnen" dabei sollte das Fenster wie folgt aussehen:
+
+<img width="955" alt="image" src="https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/assets/153181616/0018bfcb-a29b-405d-bae8-ffd0428fe015">
+
+jetzt lediglich die heruntergeladene Code-Datei für die Spikes App öffnen.
+
+
+## Code Downloads
 
 [Code](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Code/Spike%20App/Selfbalancing_Bike_SpikeApp_final.llsp3) für [Spike-App](https://education.lego.com/de-de/downloads/spike-app/software/) (Geeignet ausschließlich für die Balancierung des Bikes)
 
 [Code](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Code/Mindstorms%20App/Selfbalancing_Bike_MindstormsApp_final.lms) für [Mindstorms-App](https://education.lego.com/de-de/downloads/mindstorms-ev3/software/) (Geeignet wenn neben Selbstbalancierung, eine Steuerung geplant ist)
-
-## Unterschiede Spike-App und Mindstorms-App 
-
-Die erste Version des selbstausbalancierenden Motorrads haben wir in der Spike-App erstellt. Um die Möglichkeit zu haben eine Controller-Steuerung zu implementieren sind wir dann auf die Mindstorms-App umgestiegen und mussten dort ein paar Parameter anpassen (z.B. die Geschwindigkeitsleistung). Daher sind in beide Code-Versionen in den entsprechenden Ordnern zu finden. Der folgende Code funktioniert sowohl in der Spike-App als auch in der Mindstorms-App. Lediglich die Antriebsgeschwindigkeit wurde in der Mindstorms-App von 85% auf 100% erhöht.   
 
 ## Code Erklärung
 
