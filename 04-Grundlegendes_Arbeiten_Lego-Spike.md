@@ -25,4 +25,4 @@ Zum Starten des Codes nach dem Verbinden entweder auf das Play Symbol unten link
 
 ## Ausführliche Anleitung
 
-Für eine ausführlichere Anleitung siehe [hier](https://education.lego.com/de-de/product-resources/spike-prime/troubleshooting/verbindungsanleitungen/). 
+Eine ausführlichere Anleitung ist auf der [Lego-Education Webseite](https://education.lego.com/de-de/product-resources/spike-prime/troubleshooting/verbindungsanleitungen/) zu finden.
