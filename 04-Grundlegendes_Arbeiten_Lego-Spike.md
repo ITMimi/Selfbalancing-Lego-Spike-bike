@@ -23,5 +23,5 @@ Eine ausführlichere Anleitung ist auf der [Lego-Education Webseite](https://edu
 
 ## Code ausführen
 
-Zum Starten des Codes nach dem Verbinden entweder auf das Play Symbol unten links in der Ecke klicken oder einmal kurz den Knopf auf dem Hub betätigen. Dabei muss darauf geachtet werden, in welchem Modus der Code gestartet wird. Für die Balancierung ist es wichtig, dass der Code im *Download-Modus* ausgeführt wird (siehe [hier](06-Controller_Steuerung.md#Code-Erklärung)).
+Zum Starten des Codes nach dem Verbinden entweder auf das Play Symbol unten links in der Ecke klicken oder einmal kurz den großen Knopf auf dem Hub betätigen. Dabei muss darauf geachtet werden, in welchem Modus der Code gestartet wird. Für die Balancierung ist es wichtig, dass der Code im *Download-Modus* ausgeführt wird (siehe [hier](06-Controller_Steuerung.md#Code-Erklärung)).
 
