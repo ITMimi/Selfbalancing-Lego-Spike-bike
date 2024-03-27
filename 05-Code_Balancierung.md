@@ -1,11 +1,5 @@
 # Code
 
-´´´´python
-x = 4
-y = 3
-print(x+y)
-´´´´
-
 ## Code Downloads
 
 [Code](https://github.com/ITMimi/Selfbalancing-Lego-Spike-bike/blob/main/Code/Spike%20App/Selfbalancing_Bike_SpikeApp_final.llsp3) für [Spike-App](https://education.lego.com/de-de/downloads/spike-app/software/) (Geeignet ausschließlich für die Balancierung des Bikes)
